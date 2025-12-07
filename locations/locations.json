@@ -1352,7 +1352,7 @@
 					"A Moment Fractured"
 				],
 				"sections": [{
-					"name": "Hidden Realm: A Moment Fractured",
+					"name": "Hidden Realm: A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
 					"clear_as_group": false,
 					"item_count": 1
 				}],
@@ -1365,7 +1365,7 @@
 			{
 				"name": "Hidden Realm: A Moment Whole",
 				"access_rules": [
-					"A Moment Whole,A Moment Fractured,[LunarTrinket]",
+					"A Moment Whole,A Moment Fractured,[LunarTrinket],$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
 					"{A Moment whole}"
 				],
 				"sections": [{
@@ -1399,7 +1399,7 @@
 				"name": "Hidden Realm: Bulwark's Ambry",
 				"access_rules": [
 					"{Bulwarks Ambry}",
-					"Distant Roost,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access], Bulwarks Ambry"
+					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Bulwarks Ambry"
 				],
 				"sections": [{
 					"name": "Hidden Realm: Bulwarks Ambry",
@@ -1435,7 +1435,7 @@
 					"VoidLocus"
 				],
 				"sections": [{
-					"name": "Void Locus",
+					"name": "Void Locus,[VoidFields],[Bazaar Between Time]",
 					"clear_as_group": false,
 					"item_count": 1
 				}],
@@ -1448,8 +1448,8 @@
 			{
 				"name": "The Planetarium",
 				"access_rules": [
-					"Planetarium, VoidLocus",
-					"{Planetarium}"
+					"Planetarium, VoidLocus,[VoidFields],[Bazaar Between Time],[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+					"{Planetarium,$isNotOOLPlanetarium}"
 				],
 				"sections": [{
 					"name": "The Planetarium",
@@ -2065,8 +2065,9 @@
 			{
 				"name": "Prime Meridian",
 				"access_rules": [
-					"{Prime Meridian}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],$PrimeMeridianStageCount,Prime Meridian"
+					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Golden Dieback]",
+					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Treeborn Colony]",
+					"{Prime Meridian,$isNotOOLPrimeMeridian}"
 				],
 				"sections": [{
 					"name": "Prime Meridian",

@@ -80,14 +80,16 @@ function Zone5Access()
 	return value 
 end
 
-function PrimeMeridianStageCount()
-	local value = 
-		Tracker:ProviderCountForCode("Reformed Altar") *
-			(Tracker:ProviderCountForCode("Golden Dieback") +
-			Tracker:ProviderCountForCode("Treeborn Colony"))
-	if (value > 0) and ((Tracker:ProviderCountForCode("Stage 4") > 0) or (Tracker:ProviderCountForCode("Progressive Stage") > 3)) then
-		return 1
+function isNotOOLPrimeMeridian()
+	if Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 and Tracker:ProviderCountForCode("Reformed Altar") > 0 and (Tracker:ProviderCountForCode("Golden Dieback") > 0 or Tracker:ProviderCountForCode("Treeborn Colony") > 0) then
+		return 0
 	end
+	return 1
+end
 
-	return 0
+function isNotOOLPlanetarium()
+	if Tracker:ProviderCountForCode("Void Locus") > 0 then
+		return 0
+	end
+	return 1
 end
