@@ -203,7 +203,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 610,
-					"y": 70
+					"y": 80
 				}]
 			},{
 				"name": "Abandoned Aqueduct Newt Altar",
@@ -220,7 +220,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 610,
-					"y": 95
+					"y": 108
 				}]
 			},
 			{
@@ -238,7 +238,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 610,
-					"y": 120
+					"y": 136
 				}]
 			},
 			{
@@ -256,7 +256,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 610,
-					"y": 145
+					"y": 164
 				}]
 			},
 			{
@@ -292,7 +292,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1065,
-					"y": 70
+					"y": 80
 				}]
 			},{
 				"name": "Abyssal Depths Newt Altar",
@@ -309,7 +309,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1065,
-					"y": 95
+					"y": 108
 				}]
 			},
 			{
@@ -327,7 +327,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1065,
-					"y": 120
+					"y": 136
 				}]
 			},
 			{
@@ -345,7 +345,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1065,
-					"y": 145
+					"y": 164
 				}]
 			},
 			{
@@ -470,7 +470,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 825,
-					"y": 70
+					"y": 80
 				}]
 			},{
 				"name": "Rallypoint Delta Newt Altar",
@@ -487,7 +487,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 825,
-					"y": 95
+					"y": 108
 				}]
 			},
 			{
@@ -505,7 +505,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 825,
-					"y": 120
+					"y": 136
 				}]
 			},
 			{
@@ -523,7 +523,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 825,
-					"y": 145
+					"y": 164
 				}]
 			},
 			{
@@ -821,7 +821,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1290,
-					"y": 70
+					"y": 80
 				}]
 			},{
 				"name": "Sky Meadow Newt Altar",
@@ -838,7 +838,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1290,
-					"y": 95
+					"y": 108
 				}]
 			},
 			{
@@ -874,7 +874,7 @@
 				"map_locations": [{
 					"map": "map1",
 					"x": 1290,
-					"y": 145
+					"y": 164
 				}]
 			},
 			{
