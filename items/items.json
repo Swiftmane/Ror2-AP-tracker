@@ -227,6 +227,54 @@
         "img": "images/items/toggle.png",
         "codes": "Scorched Acres"
     },
+    {
+        "name": "Viscous Falls",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Viscous Falls"
+    },
+    {
+        "name": "Shattered Abodes",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Shattered Abodes"
+    },
+    {
+        "name": "Distrubed Impact",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Disturbed Impact"
+    },
+    {
+        "name": "Reformed Altar",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Reformed Altar"
+    },
+    {
+        "name": "Treeborn Colony",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Treeborn Colony"
+    },
+    {
+        "name": "Golden Dieback",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Golden Dieback"
+    },
+    {
+        "name": "Prime Meridian",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Prime Meridian"
+    },
+    {
+        "name": "Helminth Hatchery",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Helminth Hatchery"
+    },
 	{
 		"name": "Explore mode",
 		"type": "toggle",
