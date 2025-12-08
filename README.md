@@ -1,6 +1,6 @@
 # Poptracker pack for Risk of Rain 2
 
-A poptracker pack for usage with the Risk of Rain 2 Archipelago Randomizer
+A poptracker pack for usage with the Risk of Rain 2 Archipelago Randomizer.
 
 ## Installation
 
@@ -23,6 +23,6 @@ Environments marked in **yellow** are ones that logic does not expect you to rea
   - Planetarium expects Bazaar Between Time, Void Fields and Void Locus but can be reached by using the frog that spawns at the teleporter after defeating Mithrix
 
 ## Credits
-Bluejello42 for creating the original poptracker pack
+Sneaki for working on Risk of Rain 2 in Archipelago, including the latest SotS update
 
-Sneaki for his work on the implementation for Risk of Rain 2
+Bluejello42 for creating the original poptracker pack
