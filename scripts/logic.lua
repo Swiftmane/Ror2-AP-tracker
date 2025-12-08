@@ -1,18 +1,7 @@
 function Zone1Access()
-	local value = 
-        Tracker:ProviderCountForCode("Distant Roost") +
-        Tracker:ProviderCountForCode("Distant Roost (2)") +
-        Tracker:ProviderCountForCode("Titanic Plains") +
-        Tracker:ProviderCountForCode("Titanic Plains (2)") +
-        Tracker:ProviderCountForCode("Siphoned Forest") +
-        Tracker:ProviderCountForCode("Verdant Fall") +
-		Tracker:ProviderCountForCode("Viscous Falls") +
-		Tracker:ProviderCountForCode("Shattered Abodes") +
-		Tracker:ProviderCountForCode("Disturbed Impact")
-
-	if (value > 0) and (Tracker:ProviderCountForCode("Stage 1") > 0) then
+	if (Tracker:ProviderCountForCode("Stage 1") > 0) then
 		return 1
-	elseif (value > 0) and (Tracker:ProviderCountForCode("Progressive Stage") > 0) then
+	elseif (Tracker:ProviderCountForCode("Progressive Stage") > 0) then
 		return 1
     end
 	
@@ -81,14 +70,28 @@ function Zone5Access()
 end
 
 function isNotOOLPrimeMeridian()
-	if Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 and Tracker:ProviderCountForCode("Reformed Altar") > 0 and (Tracker:ProviderCountForCode("Golden Dieback") > 0 or Tracker:ProviderCountForCode("Treeborn Colony") > 0) then
+	if Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 then
 		return 0
 	end
 	return 1
 end
 
 function isNotOOLPlanetarium()
-	if Tracker:ProviderCountForCode("Void Locus") > 0 then
+	if Tracker:ProviderCountForCode("VoidLocus") > 0 or (Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 and Zone4Access() > 0 and Zone5Access() > 0 and Tracker:ProviderCountForCode("Commencement")) then
+		return 0
+	end
+	return 1
+end
+
+function isNotOOLSotSStage3()
+	if Zone1Access() > 0 and Zone2Access() > 0 then
+		return 0
+	end
+	return 1
+end
+
+function isNotOOLAMomentWhole()
+	if Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 and Zone4Access() > 0 and Zone5Access() > 0 and Tracker:ProviderCountForCode("A Moment Fractured") > 0 then
 		return 0
 	end
 	return 1

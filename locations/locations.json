@@ -14,8 +14,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 52
+					"x": 191,
+					"y": 49
 				}]
 			},
 			{
@@ -31,8 +31,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 80
+					"x": 191,
+					"y": 76
 				}]
 			},
 			{
@@ -48,8 +48,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 108
+					"x": 191,
+					"y": 103
 				}]
 			},
 			{
@@ -65,8 +65,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 136
+					"x": 191,
+					"y": 130
 				}]
 			},
 			{
@@ -82,8 +82,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 164
+					"x": 191,
+					"y": 157
 				}]
 			},
 			{
@@ -99,8 +99,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 52
+					"x": 387,
+					"y": 49
 				}]
 			},
 			{
@@ -116,8 +116,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 80
+					"x": 387,
+					"y": 76
 				}]
 			},{
 				"name": "Distant Roost (2) Newt Altar",
@@ -132,8 +132,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 108
+					"x": 387,
+					"y": 103
 				}]
 			},
 			{
@@ -149,8 +149,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 136
+					"x": 387,
+					"y": 130
 				}]
 			},
 			{
@@ -166,8 +166,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 164
+					"x": 387,
+					"y": 157
 				}]
 			},
 			{
@@ -184,8 +184,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 52
+					"x": 629,
+					"y": 49
 				}]
 			},
 			{
@@ -202,8 +202,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 80
+					"x": 629,
+					"y": 76
 				}]
 			},{
 				"name": "Abandoned Aqueduct Newt Altar",
@@ -219,8 +219,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 108
+					"x": 629,
+					"y": 103
 				}]
 			},
 			{
@@ -237,8 +237,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 136
+					"x": 629,
+					"y": 130
 				}]
 			},
 			{
@@ -255,8 +255,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 164
+					"x": 629,
+					"y": 157
 				}]
 			},
 			{
@@ -273,8 +273,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 52
+					"x": 1101,
+					"y": 49
 				}]
 			},
 			{
@@ -291,8 +291,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 80
+					"x": 1101,
+					"y": 76
 				}]
 			},{
 				"name": "Abyssal Depths Newt Altar",
@@ -308,8 +308,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 108
+					"x": 1101,
+					"y": 103
 				}]
 			},
 			{
@@ -326,8 +326,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 136
+					"x": 1101,
+					"y": 130
 				}]
 			},
 			{
@@ -344,8 +344,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 164
+					"x": 1101,
+					"y": 157
 				}]
 			},
 			{
@@ -362,8 +362,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 400
+					"x": 629,
+					"y": 384
 				}]
 			},
 			{
@@ -380,8 +380,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 428
+					"x": 629,
+					"y": 411
 				}]
 			},{
 				"name": "Aphelian Sanctuary Newt Altar",
@@ -397,8 +397,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 456
+					"x": 629,
+					"y": 438
 				}]
 			},
 			{
@@ -415,8 +415,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 484
+					"x": 629,
+					"y": 465
 				}]
 			},
 			{
@@ -433,8 +433,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 512
+					"x": 629,
+					"y": 492
 				}]
 			},
 			{
@@ -451,8 +451,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 52
+					"x": 864,
+					"y": 49
 				}]
 			},
 			{
@@ -469,8 +469,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 80
+					"x": 864,
+					"y": 76
 				}]
 			},{
 				"name": "Rallypoint Delta Newt Altar",
@@ -486,8 +486,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 108
+					"x": 864,
+					"y": 103
 				}]
 			},
 			{
@@ -504,8 +504,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 136
+					"x": 864,
+					"y": 130
 				}]
 			},
 			{
@@ -522,8 +522,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 164
+					"x": 864,
+					"y": 157
 				}]
 			},
 			{
@@ -540,8 +540,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 226
+					"x": 864,
+					"y": 217
 				}]
 			},
 			{
@@ -558,8 +558,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 254
+					"x": 864,
+					"y": 244
 				}]
 			},{
 				"name": "Scorched Acres Newt Altar",
@@ -575,8 +575,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 282
+					"x": 864,
+					"y": 271
 				}]
 			},
 			{
@@ -593,8 +593,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 310
+					"x": 864,
+					"y": 298
 				}]
 			},
 			{
@@ -611,8 +611,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 338
+					"x": 864,
+					"y": 325
 				}]
 			},
 			{
@@ -628,8 +628,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 752
+					"x": 191,
+					"y": 722
 				}]
 			},
 			{
@@ -645,8 +645,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 780
+					"x": 191,
+					"y": 750
 				}]
 			},{
 				"name": "Siphoned Forest Newt Altar",
@@ -661,8 +661,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 808
+					"x": 191,
+					"y": 778
 				}]
 			},
 			{
@@ -678,8 +678,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 836
+					"x": 191,
+					"y": 806
 				}]
 			},
 			{
@@ -695,8 +695,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 864
+					"x": 191,
+					"y": 834
 				}]
 			},
 			{
@@ -713,8 +713,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 226
+					"x": 1101,
+					"y": 217
 				}]
 			},
 			{
@@ -731,8 +731,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 254
+					"x": 1101,
+					"y": 244
 				}]
 			},{
 				"name": "Sirens Call Newt Altar",
@@ -748,8 +748,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 282
+					"x": 1101,
+					"y": 271
 				}]
 			},
 			{
@@ -766,8 +766,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 310
+					"x": 1101,
+					"y": 298
 				}]
 			},
 			{
@@ -784,8 +784,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 338
+					"x": 1101,
+					"y": 325
 				}]
 			},
 			{
@@ -802,8 +802,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 52
+					"x": 1336,
+					"y": 49
 				}]
 			},
 			{
@@ -820,8 +820,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 80
+					"x": 1336,
+					"y": 76
 				}]
 			},{
 				"name": "Sky Meadow Newt Altar",
@@ -837,8 +837,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 108
+					"x": 1336,
+					"y": 103
 				}]
 			},
 			{
@@ -855,8 +855,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 170
+					"x": 1336,
+					"y": 130
 				}]
 			},
 			{
@@ -873,8 +873,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 164
+					"x": 1336,
+					"y": 157
 				}]
 			},
 			{
@@ -891,8 +891,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 400
+					"x": 864,
+					"y": 384
 				}]
 			},
 			{
@@ -909,8 +909,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 428
+					"x": 864,
+					"y": 411
 				}]
 			},{
 				"name": "Sulfur Pools Newt Altar",
@@ -926,8 +926,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 456
+					"x": 864,
+					"y": 438
 				}]
 			},
 			{
@@ -944,8 +944,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 484
+					"x": 864,
+					"y": 465
 				}]
 			},
 			{
@@ -962,8 +962,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 512
+					"x": 864,
+					"y": 492
 				}]
 			},
 			{
@@ -980,8 +980,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 400
+					"x": 1101,
+					"y": 384
 				}]
 			},
 			{
@@ -998,8 +998,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 428
+					"x": 1101,
+					"y": 411
 				}]
 			},{
 				"name": "Sundered Grove Newt Altar",
@@ -1015,8 +1015,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 456
+					"x": 1101,
+					"y": 438
 				}]
 			},
 			{
@@ -1033,8 +1033,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 484
+					"x": 1101,
+					"y": 465
 				}]
 			},
 			{
@@ -1051,8 +1051,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1065,
-					"y": 512
+					"x": 1101,
+					"y": 492
 				}]
 			},
 			{
@@ -1068,8 +1068,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 226
+					"x": 387,
+					"y": 217
 				}]
 			},
 			{
@@ -1085,8 +1085,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 254
+					"x": 387,
+					"y": 244
 				}]
 			},{
 				"name": "Titanic Plains (2) Newt Altar",
@@ -1101,8 +1101,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 282
+					"x": 387,
+					"y": 271
 				}]
 			},
 			{
@@ -1118,8 +1118,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 310
+					"x": 387,
+					"y": 298
 				}]
 			},
 			{
@@ -1135,8 +1135,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 338
+					"x": 387,
+					"y": 325
 				}]
 			},
 			{
@@ -1152,8 +1152,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 226
+					"x": 191,
+					"y": 217
 				}]
 			},
 			{
@@ -1169,8 +1169,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 254
+					"x": 191,
+					"y": 244
 				}]
 			},{
 				"name": "Titanic Plains Newt Altar",
@@ -1185,8 +1185,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 282
+					"x": 191,
+					"y": 271
 				}]
 			},
 			{
@@ -1202,8 +1202,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 310
+					"x": 191,
+					"y": 298
 				}]
 			},
 			{
@@ -1219,8 +1219,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 338
+					"x": 191,
+					"y": 325
 				}]
 			},
 			{
@@ -1237,8 +1237,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 226
+					"x": 629,
+					"y": 217
 				}]
 			},
 			{
@@ -1255,8 +1255,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 254
+					"x": 629,
+					"y": 244
 				}]
 			},{
 				"name": "Wetland Aspect Newt Altar",
@@ -1272,8 +1272,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 282
+					"x": 629,
+					"y": 271
 				}]
 			},
 			{
@@ -1290,8 +1290,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 310
+					"x": 629,
+					"y": 298
 				}]
 			},
 			{
@@ -1308,8 +1308,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 338
+					"x": 629,
+					"y": 325
 				}]
 			},
 			
@@ -1326,8 +1326,8 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1225,
-					"y": 400
+					"x": 1250,
+					"y": 382
 				}]
 			},
 			{
@@ -1342,31 +1342,31 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 988,
-					"y": 837
+					"x": 1015,
+					"y": 805
 				}]
 			},
 			{
 				"name": "Hidden Realm: A Moment Fractured",
 				"access_rules": [
-					"A Moment Fractured"
+					"A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access"
 				],
 				"sections": [{
-					"name": "Hidden Realm: A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
+					"name": "Hidden Realm: A Moment Fractured",
 					"clear_as_group": false,
 					"item_count": 1
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 988,
-					"y": 660
+					"x": 1015,
+					"y": 634
 				}]
 			},
 			{
 				"name": "Hidden Realm: A Moment Whole",
 				"access_rules": [
-					"A Moment Whole,A Moment Fractured,[LunarTrinket],$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
-					"{A Moment whole}"
+					"A Moment Whole,A Moment Fractured,[Beads of Fealty],$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
+					"{A Moment Whole, $isNotOOLAMomentWhole}"
 				],
 				"sections": [{
 					"name": "Hidden Realm: A Moment Whole",
@@ -1375,8 +1375,8 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1180,
-					"y": 660
+					"x": 1217,
+					"y": 634
 				}]
 			},
 			{
@@ -1391,8 +1391,8 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 988,
-					"y": 750
+					"x": 1015,
+					"y": 720
 				}]
 			},
 			{
@@ -1408,8 +1408,8 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1180,
-					"y": 750
+					"x": 1217,
+					"y": 720
 				}]
 			},
 			{
@@ -1425,30 +1425,31 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1180,
-					"y": 837
+					"x": 1217,
+					"y": 805
 				}]
 			},
 			{
 				"name": "Void Locus",
 				"access_rules": [
-					"VoidLocus"
+					"VoidLocus,[VoidFields],[Bazaar Between Time]"
 				],
 				"sections": [{
-					"name": "Void Locus,[VoidFields],[Bazaar Between Time]",
+					"name": "Void Locus",
 					"clear_as_group": false,
 					"item_count": 1
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 988,
-					"y": 895
+					"x": 1015,
+					"y": 861
 				}]
 			},
 			{
 				"name": "The Planetarium",
 				"access_rules": [
 					"Planetarium, VoidLocus,[VoidFields],[Bazaar Between Time],[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+					"Planetarium,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon,[never logical]",
 					"{Planetarium,$isNotOOLPlanetarium}"
 				],
 				"sections": [{
@@ -1458,8 +1459,8 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1180,
-					"y": 895
+					"x": 1217,
+					"y": 861
 				}]
 			},			
 			{
@@ -1475,8 +1476,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 400
+					"x": 191,
+					"y": 384
 				}]
 			},
 			{
@@ -1492,8 +1493,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 428
+					"x": 191,
+					"y": 411
 				}]
 			},{
 				"name": "Verdant Falls Newt Altar",
@@ -1508,8 +1509,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 456
+					"x": 191,
+					"y": 438
 				}]
 			},
 			{
@@ -1525,8 +1526,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 484
+					"x": 191,
+					"y": 465
 				}]
 			},
 			{
@@ -1542,8 +1543,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 512
+					"x": 191,
+					"y": 492
 				}]
 			},
 						{
@@ -1559,8 +1560,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 400
+					"x": 387,
+					"y": 384
 				}]
 			},
 			{
@@ -1576,8 +1577,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 428
+					"x": 387,
+					"y": 411
 				}]
 			},{
 				"name": "Viscous Falls Newt Altar",
@@ -1592,8 +1593,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 456
+					"x": 387,
+					"y": 438
 				}]
 			},
 			{
@@ -1609,8 +1610,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 484
+					"x": 387,
+					"y": 465
 				}]
 			},
 			{
@@ -1626,8 +1627,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 512
+					"x": 387,
+					"y": 492
 				}]
 			},
 			{
@@ -1643,8 +1644,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 574
+					"x": 191,
+					"y": 552
 				}]
 			},
 			{
@@ -1660,8 +1661,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 602
+					"x": 191,
+					"y": 579
 				}]
 			},{
 				"name": "Shattered Abodes Newt Altar",
@@ -1676,8 +1677,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 630
+					"x": 191,
+					"y": 606
 				}]
 			},
 			{
@@ -1693,8 +1694,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 658
+					"x": 191,
+					"y": 633
 				}]
 			},
 			{
@@ -1710,8 +1711,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 170,
-					"y": 686
+					"x": 191,
+					"y": 660
 				}]
 			},
 			{
@@ -1727,8 +1728,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 574
+					"x": 387,
+					"y": 552
 				}]
 			},
 			{
@@ -1744,8 +1745,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 602
+					"x": 387,
+					"y": 579
 				}]
 			},{
 				"name": "Disturbed Impact Newt Altar",
@@ -1760,8 +1761,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 630
+					"x": 387,
+					"y": 606
 				}]
 			},
 			{
@@ -1777,8 +1778,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 658
+					"x": 387,
+					"y": 633
 				}]
 			},
 			{
@@ -1794,8 +1795,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 352,
-					"y": 686
+					"x": 387,
+					"y": 660
 				}]
 			},
 			{
@@ -1812,8 +1813,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 574
+					"x": 629,
+					"y": 552
 				}]
 			},
 			{
@@ -1830,8 +1831,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 602
+					"x": 629,
+					"y": 579
 				}]
 			},{
 				"name": "Reformed Altar Newt Altar",
@@ -1847,8 +1848,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 630
+					"x": 629,
+					"y": 606
 				}]
 			},
 			{
@@ -1865,8 +1866,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 658
+					"x": 629,
+					"y": 633
 				}]
 			},
 			{
@@ -1882,14 +1883,14 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 610,
-					"y": 686
+					"x": 629,
+					"y": 660
 				}]
 			},
 						{
 				"name": "Golden Dieback Chest",
 				"access_rules": [
-					"{Golden Dieback}",
+					"{Golden Dieback,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
 				],
 				"sections": [{
@@ -1900,14 +1901,14 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 752
+					"x": 864,
+					"y": 722
 				}]
 			},
 			{
 				"name": "Golden Dieback Shrine",
 				"access_rules": [
-					"{Golden Dieback}",
+					"{Golden Dieback,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
 				],
 				"sections": [{
@@ -1918,13 +1919,13 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 780
+					"x": 864,
+					"y": 750
 				}]
 			},{
 				"name": "Golden Dieback Newt Altar",
 				"access_rules": [
-					"{Golden Dieback}",
+					"{Golden Dieback,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
 				],
 				"sections": [{
@@ -1935,14 +1936,14 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 808
+					"x": 864,
+					"y": 778
 				}]
 			},
 			{
 				"name": "Golden Dieback Radio Scanner",
 				"access_rules": [
-					"{Golden Dieback}",
+					"{Golden Dieback,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
 				],
 				"sections": [{
@@ -1953,8 +1954,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 836
+					"x": 864,
+					"y": 806
 				}]
 			},
 			{
@@ -1970,14 +1971,14 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 864
+					"x": 864,
+					"y": 834
 				}]
 			},
 			{
 				"name": "Treeborn Colony Chest",
 				"access_rules": [
-					"{Treeborn Colony}",
+					"{Treeborn Colony,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
 				],
 				"sections": [{
@@ -1988,14 +1989,14 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 574
+					"x": 864,
+					"y": 552
 				}]
 			},
 			{
 				"name": "Treeborn Colony Shrine",
 				"access_rules": [
-					"{Treeborn Colony}",
+					"{Treeborn Colony,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
 				],
 				"sections": [{
@@ -2006,13 +2007,13 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 602
+					"x": 864,
+					"y": 579
 				}]
 			},{
 				"name": "Treeborn Colony Newt Altar",
 				"access_rules": [
-					"{Treeborn Colony}",
+					"{Treeborn Colony,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
 				],
 				"sections": [{
@@ -2023,14 +2024,14 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 630
+					"x": 864,
+					"y": 606
 				}]
 			},
 			{
 				"name": "Treeborn Colony Radio Scanner",
 				"access_rules": [
-					"{Treeborn Colony}",
+					"{Treeborn Colony,$isNotOOLSotSStage3}",
 					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
 				],
 				"sections": [{
@@ -2041,8 +2042,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 658
+					"x": 864,
+					"y": 633
 				}]
 			},
 			{
@@ -2058,8 +2059,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 825,
-					"y": 686
+					"x": 864,
+					"y": 660
 				}]
 			},
 			{
@@ -2076,8 +2077,8 @@
 				}],
 				"map_locations": [{
 					"map": "map1",
-					"x": 988,
-					"y": 574
+					"x": 1015,
+					"y": 550
 				}]
 			},
 			{
@@ -2094,8 +2095,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 226
+					"x": 1336,
+					"y": 217
 				}]
 			},
 			{
@@ -2112,8 +2113,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 254
+					"x": 1336,
+					"y": 244
 				}]
 			},{
 				"name": "Helminth Hatchery Newt Altar",
@@ -2129,8 +2130,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 282
+					"x": 1336,
+					"y": 271
 				}]
 			},
 			{
@@ -2147,8 +2148,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 310
+					"x": 1336,
+					"y": 298
 				}]
 			},
 			{
@@ -2165,8 +2166,8 @@
 				],
 				"map_locations": [{
 					"map": "map1",
-					"x": 1290,
-					"y": 338
+					"x": 1336,
+					"y": 325
 				}]
 			}
 		]

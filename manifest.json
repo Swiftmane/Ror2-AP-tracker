@@ -6,11 +6,10 @@
   "author": "Swiftmane",
   "variants": {
     "standard": {
-      "display_name": "tracker",
+      "display_name": "Archipelago Tracker",
       "flags": [
         "ap"
       ]
     }
-  },
-"versions_url": "https://raw.githubusercontent.com/bluejello42/Ror2-AP-tracker/Versions/versions.json"
+  }
 }

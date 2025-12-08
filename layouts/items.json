@@ -21,7 +21,7 @@
 							"item_size": 4,
 							"rows": [
 								[
-									"LunarTrinket",
+									"Beads of Fealty",
 									"Dios Best Friend",
 									"Common item",
 									"Uncommon item",          
@@ -32,7 +32,7 @@
 									"Void Item"
 								]
 							]
-						},
+						}
                     },{
                         "type": "group",
 						"header": "Stage",
@@ -51,8 +51,8 @@
 									"Progressive Stage"
 								]
 							]
-						},
-                    },
+						}
+                    }
                 ]
             }
 			,{
