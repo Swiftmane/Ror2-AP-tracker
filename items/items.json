@@ -278,14 +278,12 @@
 	{
 		"name": "Explore mode",
 		"type": "toggle",
-		"loop": "true",
 		"img": "images/Explore Mode.png",
 		"codes": "exploreCheck"
 	},
 	{
 		"name": "Classic mode",
 		"type": "toggle",
-		"loop": "true",
 		"img": "images/Classic Mode.png",
 		"codes": "classicCheck"
 	},
@@ -301,6 +299,24 @@
         "type": "consumable",
         "img": "images/items/money.png",
         "codes": "Money"
+    },
+    {
+        "name": "Radar Scanner",
+        "type": "toggle",
+        "img": "images/items/scanner.png",
+        "codes": "RadarScanner"
+    },
+    {
+        "name": "Lunar Coin",
+        "type": "consumable",
+        "img": "images/items/Lunar Coin.png",
+        "codes": "Lunar Coin"
+    },
+    {
+        "name": "1000 EXP",
+        "type": "consumable",
+        "img": "images/items/EXP.png",
+        "codes": "1000 EXP"
     },
 	{
         "name": "Stage 1",
@@ -330,6 +346,7 @@
         "name": "Progressive Stage",
         "type": "consumable",
         "img": "images/Progressive Stage.png",
+        "max_quantity": 4,
         "codes": "Progressive Stage"
     }
 ]

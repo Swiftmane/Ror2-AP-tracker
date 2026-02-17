@@ -6,6 +6,17 @@
 ScriptHost:LoadScript("scripts/ap_item_mapping.lua")
 ScriptHost:LoadScript("scripts/ap_location_mapping.lua")
 
+PriorityToHighlight = {}
+if Highlight then
+	PriorityToHighlight = {
+		[0] = Highlight.Unspecified,
+		[10] = Highlight.NoPriority,
+		[20] = Highlight.Avoid,
+		[30] = Highlight.Priority,
+		[40] = Highlight.None -- found
+	}
+end
+
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
@@ -60,6 +71,19 @@ function onClear(slot_data)
             end
         end
     end
+
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+    if Archipelago.PlayerNumber > -1 then
+		HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+
+		if Highlight then
+			Archipelago:SetNotify({HINTS_ID})
+			Archipelago:Get({HINTS_ID})
+		end
+	end
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 	
@@ -276,7 +300,92 @@ function onLocation(location_id, location_name)
 	end
 end
 
+function OnNotify(key, value, old_value)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotify: %s, %s, %s", key, dump_table(value), old_value))
+	end
 
+	if value == old_value then
+		return
+	end
+
+	if key == HINTS_ID and Highlight then
+		for _, hint in ipairs(value) do
+			if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
+				UpdateHints(hint.location, hint.status)
+			else
+				ClearHints(hint.location)
+			end
+		end
+	elseif key == DATA_STORAGE_ID and value ~= nil then
+		for k, v in pairs(value) do
+			if (DataStorageLocationTable[k]) then
+				Tracker:FindObjectForCode(DataStorageLocationTable[k]).AvailableChestCount = v and 0 or 1
+			elseif (DataStorageItemTable[k]) then
+				Tracker:FindObjectForCode(DataStorageItemTable[k]).Active = v or false
+			elseif (k == "Learned Pedestal Sequence" and v) then
+				for i, pair in ipairs(SLOT_DATA["lost_woods_item_sequence"]) do
+					if (i < 4) then
+						Tracker:FindObjectForCode("pedestal_d_"..i).CurrentStage = 3 - pair[1]
+					end
+					Tracker:FindObjectForCode("pedestal_"..i).CurrentStage = pair[2]
+				end
+			elseif (k == "Learned Lost Woods Sequence" and v) then
+				for i, pair in ipairs(SLOT_DATA["lost_woods_main_sequence"]) do
+					if (i < 4) then
+						Tracker:FindObjectForCode("lost_woods_d_"..i).CurrentStage = 3 - pair[1]
+					end
+					Tracker:FindObjectForCode("lost_woods_"..i).CurrentStage = pair[2]
+				end
+			end
+		end
+		Tracker:FindObjectForCode(HiddenSetting).Active = not Tracker:FindObjectForCode(HiddenSetting).Active
+	end
+end
+
+function OnNotifyLaunch(key, value)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotifyLaunch: %s, %s", key, dump_table(value)))
+	end
+	OnNotify(key, value)
+end
+
+-- called when a location is hinted or the status of a hint is changed
+function UpdateHints(locationID, status)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	-- print("Hint", dump(locations), status)
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = PriorityToHighlight[status]
+		else
+			print(string.format("No object found for code: %s", location))
+		end
+	end
+end
+
+function ClearHints(locationID)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	if (not locations) then
+		return
+	end
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = Highlight.None
+		else
+			print(string.format("No object found for code: %s", location))
+		end
+	end
+end
 
 
 -- add AP callbacks
@@ -284,5 +393,7 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", OnNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

@@ -4,6 +4,7 @@
   "package_version": "1.5",
   "package_uid": "risk_ap_tracker",
   "author": "Swiftmane",
+  "target_poptracker_version": "0.32.0",
   "variants": {
     "standard": {
       "display_name": "Archipelago Tracker",

@@ -20,7 +20,6 @@ Environments marked in **yellow** are ones that logic does not expect you to rea
 - All goal levels expect access to a full loop including Helminth Hatchery and Sky Meadow
   - Prime Meridian also expects Reformed Altar and one of Golden Dieback and Treeborn Colony but can be reached without them
   - A Moment Whole expects Beads of Fealty but can be reached by finding them in your run
-  - Planetarium expects Bazaar Between Time, Void Fields and Void Locus but can be reached by using the frog that spawns at the teleporter after defeating Mithrix
 
 ## Credits
 Sneaki for working on Risk of Rain 2 in Archipelago, including the latest SotS update
