@@ -12,5 +12,6 @@
         "ap"
       ]
     }
-  }
+  },
+  "versions_url": "https://raw.githubusercontent.com/Swiftmane/Ror2-AP-tracker/refs/heads/versions/versions.json"
 }
