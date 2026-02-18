@@ -9,6 +9,7 @@
                 "Added legend for clarity on meanings of colors for this pack",
                 "Added support for auto updates going forward",
                 "Minor logic fix for Planetarium access"
+            ]
         },
         {
             "package_version": "1.4",
