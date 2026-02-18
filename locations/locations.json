@@ -82,13 +82,15 @@
                     {
                         "name": "Distant Roost Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Distant Roost,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Distant Roost}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -178,13 +180,15 @@
                     {
                         "name": "Distant Roost (2) Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Distant Roost (2),[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Distant Roost (2)}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -275,13 +279,15 @@
                     {
                         "name": "Abandoned Aqueduct Scavenger",
                         "access_rules": [
-                            "[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Abandoned Aqueduct,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Abandoned Aqueduct}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -372,13 +378,15 @@
                     {
                         "name": "Rallypoint Delta Scavenger",
                         "access_rules": [
-                            "[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Rallypoint Delta,$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Rallypoint Delta}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -469,13 +477,15 @@
                     {
                         "name": "Abyssal Depths Scavenger",
                         "access_rules": [
-                            "[$Zone4Access],[$Zone5Access]"
+                            "Abyssal Depths,$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access]",
+                            "{Abyssal Depths}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -659,13 +669,15 @@
                     {
                         "name": "Titanic Plains Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Titanic Plains,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Titanic Plains}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -755,13 +767,15 @@
                     {
                         "name": "Titanic Plains (2) Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Titanic Plains (2),[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Titanic Plains (2)}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -852,13 +866,15 @@
                     {
                         "name": "Wetland Aspect Scavenger",
                         "access_rules": [
-                            "[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Wetland Aspect,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Wetland Aspect}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -949,13 +965,15 @@
                     {
                         "name": "Scorched Acres Scavenger",
                         "access_rules": [
-                            "[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Scorched Acres,$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Scorched Acres}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1046,13 +1064,15 @@
                     {
                         "name": "Sirens Call Scavenger",
                         "access_rules": [
-                            "[$Zone4Access],[$Zone5Access]"
+                            "Sirens Call,$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access]",
+                            "{Sirens Call}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1236,13 +1256,15 @@
                     {
                         "name": "Verdant Falls Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Verdant Falls,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Verdant Falls}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1332,13 +1354,15 @@
                     {
                         "name": "Viscous Falls Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Viscous Falls,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Viscous Falls}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1429,13 +1453,15 @@
                     {
                         "name": "Aphelian Sanctuary Scavenger",
                         "access_rules": [
-                            "[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Aphelian Sanctuary,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Aphelian Sanctuary}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1526,13 +1552,15 @@
                     {
                         "name": "Sulfur Pools Scavenger",
                         "access_rules": [
-                            "[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Sulfur Pools,$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Sulfur Pools}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1623,13 +1651,15 @@
                     {
                         "name": "Sundered Grove Scavenger",
                         "access_rules": [
-                            "[$Zone4Access],[$Zone5Access]"
+                            "Sundered Grove,$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access]",
+                            "{Sundered Grove}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1719,13 +1749,15 @@
                     {
                         "name": "Shattered Abodes Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Shattered Abodes,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Shattered Abodes}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1815,13 +1847,15 @@
                     {
                         "name": "Disturbed Impact Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Disturbed Impact,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Disturbed Impact}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1912,13 +1946,15 @@
                     {
                         "name": "Reformed Altar Scavenger",
                         "access_rules": [
-                            "[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Reformed Altar,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Reformed Altar}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1944,7 +1980,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 20
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1961,7 +1998,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 20
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1978,7 +2016,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 2
+                                "item_count": 2,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -1995,7 +2034,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2009,13 +2049,15 @@
                     {
                         "name": "Treeborn Colony Scavenger",
                         "access_rules": [
-                            "[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Treeborn Colony,[Reformed Altar],$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Treeborn Colony}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2105,13 +2147,15 @@
                     {
                         "name": "Siphoned Forest Scavenger",
                         "access_rules": [
-                            "[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Siphoned Forest,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Siphoned Forest}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2137,7 +2181,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 20
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2154,7 +2199,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 20
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2171,7 +2217,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 2
+                                "item_count": 2,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2188,7 +2235,8 @@
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2202,13 +2250,15 @@
                     {
                         "name": "Golden Dieback Scavenger",
                         "access_rules": [
-                            "[$Zone3Access],[$Zone4Access],[$Zone5Access]"
+                            "Golden Dieback,[Reformed Altar],$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Golden Dieback}"
                         ],
                         "sections": [
                             {
                                 "name": "1",
                                 "clear_as_group": false,
-                                "item_count": 1
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
                             }
                         ],
                         "map_locations": [
@@ -2218,215 +2268,220 @@
                                 "y": 830
                             }
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Prime Meridian",
+                "access_rules": [
+                    "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Golden Dieback]",
+                    "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Treeborn Colony]",
+                    "$Zone1Access,$Zone2Access,Prime Meridian,[Golden Dieback],[Treeborn Colony],Progressive Stage:3,[special case for ool without Reformed Altar or other stage 3 never logical]",
+                    "$Zone1Access,$Zone2Access,Prime Meridian,[Golden Dieback],[Treeborn Colony],Stage 3,[special case for ool without Reformed Altar or other stage 3 never logical]",
+                    "{Prime Meridian}"
+                ],
+                "sections": [
                     {
                         "name": "Prime Meridian",
-                        "access_rules": [
-                            "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Golden Dieback]",
-                            "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Treeborn Colony]",
-                            "{Prime Meridian}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Prime Meridian",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1015,
-                                "y": 550
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1,
+                        "inspectable_sequence_break": true
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: A Moment, Fractured",
+                "access_rules": [
+                    "A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
+                    "{A Moment Fractured}"
+                ],
+                "sections": [
                     {
                         "name": "Hidden Realm: A Moment, Fractured",
-                        "access_rules": [
-                            "A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
-                            "{A Moment Fractured}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Hidden Realm: A Moment, Fractured",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1015,
-                                "y": 634
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 634
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: A Moment, Whole",
+                "access_rules": [
+                    "A Moment Whole,[Beads of Fealty],A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
+                    "{A Moment Whole}"
+                ],
+                "sections": [
                     {
                         "name": "Hidden Realm: A Moment, Whole",
-                        "access_rules": [
-                            "A Moment Whole,[Beads of Fealty],A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
-                            "{A Moment Whole}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Hidden Realm: A Moment, Whole",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1217,
-                                "y": 634
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1,
+                        "inspectable_sequence_break": true
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 634
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: Gilded Coast",
+                "access_rules": [
+                    "Gilded Coast"
+                ],
+                "sections": [
                     {
                         "name": "Hidden Realm: Gilded Coast",
-                        "access_rules": [
-                            "Gilded Coast"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Hidden Realm: Gilded Coast",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1015,
-                                "y": 720
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 720
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: Bulwark's Ambry",
+                "access_rules": [
+                    "$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Bulwarks Ambry",
+                    "{Bulwarks Ambry}"
+                ],
+                "sections": [
                     {
                         "name": "Hidden Realm: Bulwark's Ambry",
-                        "access_rules": [
-                            "$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Bulwarks Ambry",
-                            "{Bulwarks Ambry}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Hidden Realm: Bulwark's Ambry",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1217,
-                                "y": 720
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 720
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: Bazaar Between Time",
+                "access_rules": [
+                    "Bazaar Between Time"
+                ],
+                "sections": [
                     {
                         "name": "Hidden Realm: Bazaar Between Time",
-                        "access_rules": [
-                            "Bazaar Between Time"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Hidden Realm: Bazaar Between Time",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1015,
-                                "y": 805
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 805
+                    }
+                ]
+            },
+            {
+                "name": "Void Fields",
+                "access_rules": [
+                    "Bazaar Between Time,VoidFields",
+                    "{VoidFields}"
+                ],
+                "sections": [
                     {
                         "name": "Void Fields",
-                        "access_rules": [
-                            "Bazaar Between Time,VoidFields",
-                            "{VoidFields}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Void Fields",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1217,
-                                "y": 805
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 805
+                    }
+                ]
+            },
+            {
+                "name": "Void Locus",
+                "access_rules": [
+                    "VoidLocus,[VoidFields],[Bazaar Between Time]"
+                ],
+                "sections": [
                     {
                         "name": "Void Locus",
-                        "access_rules": [
-                            "VoidLocus,[VoidFields],[Bazaar Between Time]"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Void Locus",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1015,
-                                "y": 861
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 861
+                    }
+                ]
+            },
+            {
+                "name": "Planetarium",
+                "access_rules": [
+                    "Planetarium,VoidLocus,[VoidFields],[Bazaar Between Time],[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                    "Planetarium,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon",
+                    "{Planetarium}"
+                ],
+                "sections": [
                     {
                         "name": "Planetarium",
-                        "access_rules": [
-                            "Planetarium,VoidLocus,[VoidFields],[Bazaar Between Time],[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
-                            "Planetarium,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon",
-                            "{Planetarium}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Planetarium",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1217,
-                                "y": 861
-                            }
-                        ]
-                    },
+                        "clear_as_group": true,
+                        "item_count": 1,
+                        "inspectable_sequence_break": true
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 861
+                    }
+                ]
+            },
+            {
+                "name": "Commencement",
+                "access_rules": [
+                    "$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon",
+                    "{Moon}"
+                ],
+                "sections": [
                     {
                         "name": "Commencement",
-                        "access_rules": [
-                            "$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon",
-                            "{Moon}"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Commencement",
-                                "clear_as_group": true,
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "map1",
-                                "x": 1250,
-                                "y": 382
-                            }
-                        ]
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1250,
+                        "y": 382
                     }
                 ]
             }
