@@ -8,9 +8,6 @@ function Zone1Access()
 	return 0
 end
 
-
-
-
 function Zone2Access()
 	local value = 
         Tracker:ProviderCountForCode("Abandoned Aqueduct") +
@@ -67,32 +64,4 @@ function Zone5Access()
 		Tracker:ProviderCountForCode("Helminth Hatchery")
 
 	return value 
-end
-
-function isNotOOLPrimeMeridian()
-	if Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 then
-		return 0
-	end
-	return 1
-end
-
-function isNotOOLPlanetarium()
-	if Tracker:ProviderCountForCode("VoidLocus") > 0 or (Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 and Zone4Access() > 0 and Zone5Access() > 0 and Tracker:ProviderCountForCode("Commencement")) then
-		return 0
-	end
-	return 1
-end
-
-function isNotOOLSotSStage3()
-	if Zone1Access() > 0 and Zone2Access() > 0 then
-		return 0
-	end
-	return 1
-end
-
-function isNotOOLAMomentWhole()
-	if Zone1Access() > 0 and Zone2Access() > 0 and Zone3Access() > 0 and Zone4Access() > 0 and Zone5Access() > 0 and Tracker:ProviderCountForCode("A Moment Fractured") > 0 then
-		return 0
-	end
-	return 1
 end

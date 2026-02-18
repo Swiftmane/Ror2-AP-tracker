@@ -6,6 +6,17 @@
 ScriptHost:LoadScript("scripts/ap_item_mapping.lua")
 ScriptHost:LoadScript("scripts/ap_location_mapping.lua")
 
+PriorityToHighlight = {}
+if Highlight then
+	PriorityToHighlight = {
+		[0] = Highlight.Unspecified,
+		[10] = Highlight.NoPriority,
+		[20] = Highlight.Avoid,
+		[30] = Highlight.Priority,
+		[40] = Highlight.None -- found
+	}
+end
+
 CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
@@ -60,6 +71,19 @@ function onClear(slot_data)
             end
         end
     end
+
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+    if Archipelago.PlayerNumber > -1 then
+		HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+
+		if Highlight then
+			Archipelago:SetNotify({HINTS_ID})
+			Archipelago:Get({HINTS_ID})
+		end
+	end
+
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 	
@@ -81,125 +105,125 @@ function onClear(slot_data)
 				Tracker:FindObjectForCode("classicCheck").Active = false
 			end
 		elseif k == "chestsPerStage" then
-            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Abyssal Depths Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost (2) Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Rallypoint Delta Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Scorched Acres Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Siphoned Forest Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sirens Call Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sky Meadow Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sulfur Pools Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sundered Grove Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains (2) Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Wetland Aspect Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Verdant Falls Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Viscous Falls Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Shattered Abodes Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Disturbed Impact Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Reformed Altar Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Treeborn Colony Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Golden Dieback Chest/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Helminth Hatchery Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost/Distant Roost Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost (2)/Distant Roost (2) Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct/Abandoned Aqueduct Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Rallypoint Delta/Rallypoint Delta Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abyssal Depths/Abyssal Depths Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sky Meadow/Sky Meadow Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains/Titanic Plains Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains (2)/Titanic Plains (2) Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Wetland Aspect/Wetland Aspect Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Scorched Acres/Scorched Acres Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sirens Call/Sirens Call Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Helminth Hatchery/Helminth Hatchery Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Verdant Falls/Verdant Falls Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Viscous Falls/Viscous Falls Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary/Aphelian Sanctuary Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sulfur Pools/Sulfur Pools Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sundered Grove/Sundered Grove Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Shattered Abodes/Shattered Abodes Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Disturbed Impact/Disturbed Impact Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Reformed Altar/Reformed Altar Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Treeborn Colony/Treeborn Colony Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Siphoned Forest/Siphoned Forest Chest/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Golden Dieback/Golden Dieback Chest/1').AvailableChestCount = value
 		elseif k == "shrinesPerStage" then
-            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Abyssal Depths Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost (2) Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Rallypoint Delta Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Scorched Acres Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Siphoned Forest Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sirens Call Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sky Meadow Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sulfur Pools Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sundered Grove Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains (2) Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Wetland Aspect Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Verdant Falls Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Viscous Falls Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Shattered Abodes Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Disturbed Impact Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Reformed Altar Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Treeborn Colony Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Golden Dieback Shrine/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Helminth Hatchery Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost/Distant Roost Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost (2)/Distant Roost (2) Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct/Abandoned Aqueduct Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Rallypoint Delta/Rallypoint Delta Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abyssal Depths/Abyssal Depths Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sky Meadow/Sky Meadow Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains/Titanic Plains Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains (2)/Titanic Plains (2) Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Wetland Aspect/Wetland Aspect Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Scorched Acres/Scorched Acres Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sirens Call/Sirens Call Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Helminth Hatchery/Helminth Hatchery Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Verdant Falls/Verdant Falls Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Viscous Falls/Viscous Falls Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary/Aphelian Sanctuary Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sulfur Pools/Sulfur Pools Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sundered Grove/Sundered Grove Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Shattered Abodes/Shattered Abodes Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Disturbed Impact/Disturbed Impact Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Reformed Altar/Reformed Altar Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Treeborn Colony/Treeborn Colony Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Siphoned Forest/Siphoned Forest Shrine/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Golden Dieback/Golden Dieback Shrine/1').AvailableChestCount = value
 		elseif k == "altarsPerStage" then	
-            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Abyssal Depths Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost (2) Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Rallypoint Delta Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Scorched Acres Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Siphoned Forest Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sirens Call Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sky Meadow Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sulfur Pools Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sundered Grove Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains (2) Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Wetland Aspect Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Verdant Falls Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Viscous Falls Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Shattered Abodes Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Disturbed Impact Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Reformed Altar Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Treeborn Colony Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Golden Dieback Newt Altar/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Helminth Hatchery Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost/Distant Roost Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost (2)/Distant Roost (2) Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct/Abandoned Aqueduct Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Rallypoint Delta/Rallypoint Delta Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abyssal Depths/Abyssal Depths Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sky Meadow/Sky Meadow Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains/Titanic Plains Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains (2)/Titanic Plains (2) Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Wetland Aspect/Wetland Aspect Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Scorched Acres/Scorched Acres Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sirens Call/Sirens Call Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Helminth Hatchery/Helminth Hatchery Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Verdant Falls/Verdant Falls Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Viscous Falls/Viscous Falls Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary/Aphelian Sanctuary Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sulfur Pools/Sulfur Pools Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sundered Grove/Sundered Grove Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Shattered Abodes/Shattered Abodes Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Disturbed Impact/Disturbed Impact Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Reformed Altar/Reformed Altar Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Treeborn Colony/Treeborn Colony Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Siphoned Forest/Siphoned Forest Newt Altar/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Golden Dieback/Golden Dieback Newt Altar/1').AvailableChestCount = value
 		elseif k == "scannerPerStage" then	
-            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Abyssal Depths Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost (2) Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Rallypoint Delta Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Scorched Acres Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Siphoned Forest Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sirens Call Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sky Meadow Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sulfur Pools Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sundered Grove Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains (2) Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Wetland Aspect Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Verdant Falls Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Viscous Falls Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Shattered Abodes Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Disturbed Impact Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Reformed Altar Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Treeborn Colony Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Golden Dieback Radio Scanner/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Helminth Hatchery Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost/Distant Roost Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost (2)/Distant Roost (2) Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct/Abandoned Aqueduct Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Rallypoint Delta/Rallypoint Delta Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abyssal Depths/Abyssal Depths Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sky Meadow/Sky Meadow Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains/Titanic Plains Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains (2)/Titanic Plains (2) Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Wetland Aspect/Wetland Aspect Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Scorched Acres/Scorched Acres Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sirens Call/Sirens Call Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Helminth Hatchery/Helminth Hatchery Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Verdant Falls/Verdant Falls Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Viscous Falls/Viscous Falls Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary/Aphelian Sanctuary Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sulfur Pools/Sulfur Pools Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sundered Grove/Sundered Grove Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Shattered Abodes/Shattered Abodes Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Disturbed Impact/Disturbed Impact Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Reformed Altar/Reformed Altar Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Treeborn Colony/Treeborn Colony Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Siphoned Forest/Siphoned Forest Radio Scanner/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Golden Dieback/Golden Dieback Radio Scanner/1').AvailableChestCount = value
 		elseif k == "scavengersPerStage" then	
-            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Abyssal Depths Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost (2) Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Distant Roost Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Rallypoint Delta Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Scorched Acres Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Siphoned Forest Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sirens Call Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sky Meadow Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sulfur Pools Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Sundered Grove Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains (2) Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Titanic Plains Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Wetland Aspect Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Verdant Falls Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Viscous Falls Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Shattered Abodes Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Disturbed Impact Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Reformed Altar Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Treeborn Colony Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Golden Dieback Scavenger/1').AvailableChestCount = value
-            Tracker:FindObjectForCode('@Explore/Helminth Hatchery Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost/Distant Roost Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Distant Roost (2)/Distant Roost (2) Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abandoned Aqueduct/Abandoned Aqueduct Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Rallypoint Delta/Rallypoint Delta Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Abyssal Depths/Abyssal Depths Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sky Meadow/Sky Meadow Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains/Titanic Plains Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Titanic Plains (2)/Titanic Plains (2) Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Wetland Aspect/Wetland Aspect Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Scorched Acres/Scorched Acres Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sirens Call/Sirens Call Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Helminth Hatchery/Helminth Hatchery Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Verdant Falls/Verdant Falls Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Viscous Falls/Viscous Falls Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Aphelian Sanctuary/Aphelian Sanctuary Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sulfur Pools/Sulfur Pools Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Sundered Grove/Sundered Grove Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Shattered Abodes/Shattered Abodes Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Disturbed Impact/Disturbed Impact Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Reformed Altar/Reformed Altar Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Treeborn Colony/Treeborn Colony Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Siphoned Forest/Siphoned Forest Scavenger/1').AvailableChestCount = value
+            Tracker:FindObjectForCode('@Explore/Golden Dieback/Golden Dieback Scavenger/1').AvailableChestCount = value
 		elseif k == "totalLocations" then	
 			Tracker:FindObjectForCode('@Classic/Item Pickup/ItemPickup').AvailableChestCount = value
 			
@@ -276,7 +300,92 @@ function onLocation(location_id, location_name)
 	end
 end
 
+function OnNotify(key, value, old_value)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotify: %s, %s, %s", key, dump_table(value), old_value))
+	end
 
+	if value == old_value then
+		return
+	end
+
+	if key == HINTS_ID and Highlight then
+		for _, hint in ipairs(value) do
+			if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
+				UpdateHints(hint.location, hint.status)
+			else
+				ClearHints(hint.location)
+			end
+		end
+	elseif key == DATA_STORAGE_ID and value ~= nil then
+		for k, v in pairs(value) do
+			if (DataStorageLocationTable[k]) then
+				Tracker:FindObjectForCode(DataStorageLocationTable[k]).AvailableChestCount = v and 0 or 1
+			elseif (DataStorageItemTable[k]) then
+				Tracker:FindObjectForCode(DataStorageItemTable[k]).Active = v or false
+			elseif (k == "Learned Pedestal Sequence" and v) then
+				for i, pair in ipairs(SLOT_DATA["lost_woods_item_sequence"]) do
+					if (i < 4) then
+						Tracker:FindObjectForCode("pedestal_d_"..i).CurrentStage = 3 - pair[1]
+					end
+					Tracker:FindObjectForCode("pedestal_"..i).CurrentStage = pair[2]
+				end
+			elseif (k == "Learned Lost Woods Sequence" and v) then
+				for i, pair in ipairs(SLOT_DATA["lost_woods_main_sequence"]) do
+					if (i < 4) then
+						Tracker:FindObjectForCode("lost_woods_d_"..i).CurrentStage = 3 - pair[1]
+					end
+					Tracker:FindObjectForCode("lost_woods_"..i).CurrentStage = pair[2]
+				end
+			end
+		end
+		Tracker:FindObjectForCode(HiddenSetting).Active = not Tracker:FindObjectForCode(HiddenSetting).Active
+	end
+end
+
+function OnNotifyLaunch(key, value)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotifyLaunch: %s, %s", key, dump_table(value)))
+	end
+	OnNotify(key, value)
+end
+
+-- called when a location is hinted or the status of a hint is changed
+function UpdateHints(locationID, status)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	-- print("Hint", dump(locations), status)
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = PriorityToHighlight[status]
+		else
+			print(string.format("No object found for code: %s", location))
+		end
+	end
+end
+
+function ClearHints(locationID)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	if (not locations) then
+		return
+	end
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = Highlight.None
+		else
+			print(string.format("No object found for code: %s", location))
+		end
+	end
+end
 
 
 -- add AP callbacks
@@ -284,5 +393,7 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", OnNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

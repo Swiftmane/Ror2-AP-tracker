@@ -1,9 +1,10 @@
 {
   "name": "Risk of Rain 2",
   "game_name": "Risk of Rain 2 ",
-  "package_version": "1.4",
+  "package_version": "1.5",
   "package_uid": "risk_ap_tracker",
   "author": "Swiftmane",
+  "target_poptracker_version": "0.32.0",
   "variants": {
     "standard": {
       "display_name": "Archipelago Tracker",
@@ -11,5 +12,6 @@
         "ap"
       ]
     }
-  }
+  },
+  "versions_url": "https://raw.githubusercontent.com/Swiftmane/Ror2-AP-tracker/refs/heads/versions/versions.json"
 }

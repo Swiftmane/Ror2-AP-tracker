@@ -1,2192 +1,2577 @@
-[{
-		"name": "Explore",
-		"visibility_rules": ["exploreCheck"],
-		"children": [{
-				"name": "Distant Roost Chest",
-				"access_rules": [
-					"Distant Roost"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 49
-				}]
-			},
-			{
-				"name": "Distant Roost Shrine",
-				"access_rules": [
-					"Distant Roost"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 76
-				}]
-			},
-			{
-				"name": "Distant Roost Newt Altar",
-				"access_rules": [
-					"Distant Roost"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 103
-				}]
-			},
-			{
-				"name": "Distant Roost Radio Scanner",
-				"access_rules": [
-					"Distant Roost"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 130
-				}]
-			},
-			{
-				"name": "Distant Roost Scavenger",
-				"access_rules": [
-					"Distant Roost,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 157
-				}]
-			},
-			{
-				"name": "Distant Roost (2) Chest",
-				"access_rules": [
-					"Distant Roost (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": true,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 49
-				}]
-			},
-			{
-				"name": "Distant Roost (2) Shrine",
-				"access_rules": [
-					"Distant Roost (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 76
-				}]
-			},{
-				"name": "Distant Roost (2) Newt Altar",
-				"access_rules": [
-					"Distant Roost (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 103
-				}]
-			},
-			{
-				"name": "Distant Roost (2) Radio Scanner",
-				"access_rules": [
-					"Distant Roost (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 130
-				}]
-			},
-			{
-				"name": "Distant Roost (2) Scavenger",
-				"access_rules": [
-					"Distant Roost (2),[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 157
-				}]
-			},
-			{
-				"name": "Abandoned Aqueduct Chest",
-				"access_rules": [
-					"{Abandoned Aqueduct}",
-					"$Zone1Access,Abandoned Aqueduct"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 49
-				}]
-			},
-			{
-				"name": "Abandoned Aqueduct Shrine",
-				"access_rules": [
-					"{Abandoned Aqueduct}",
-					"$Zone1Access,Abandoned Aqueduct"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 76
-				}]
-			},{
-				"name": "Abandoned Aqueduct Newt Altar",
-				"access_rules": [
-					"{Abandoned Aqueduct}",
-					"$Zone1Access,Abandoned Aqueduct"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 103
-				}]
-			},
-			{
-				"name": "Abandoned Aqueduct Radio Scanner",
-				"access_rules": [
-					"{Abandoned Aqueduct}",
-					"$Zone1Access, Abandoned Aqueduct"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 130
-				}]
-			},
-			{
-				"name": "Abandoned Aqueduct Scavenger",
-				"access_rules": [
-					"{Abandoned Aqueduct}",
-					"Abandoned Aqueduct,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 157
-				}]
-			},
-			{
-				"name": "Abyssal Depths Chest",
-				"access_rules": [
-					"{Abyssal Depths}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Abyssal Depths"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 49
-				}]
-			},
-			{
-				"name": "Abyssal Depths Shrine",
-				"access_rules": [
-					"{Abyssal Depths}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Abyssal Depths"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 76
-				}]
-			},{
-				"name": "Abyssal Depths Newt Altar",
-				"access_rules": [
-					"{Abyssal Depths}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Abyssal Depths"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 103
-				}]
-			},
-			{
-				"name": "Abyssal Depths Radio Scanner",
-				"access_rules": [
-					"{Abyssal Depths}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Abyssal Depths"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 130
-				}]
-			},
-			{
-				"name": "Abyssal Depths Scavenger",
-				"access_rules": [
-					"{Abyssal Depths}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Abyssal Depths"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 157
-				}]
-			},
-			{
-				"name": "Aphelian Sanctuary Chest",
-				"access_rules": [
-					"{Aphelian Sanctuary}",
-					"$Zone1Access,Aphelian Sanctuary"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 384
-				}]
-			},
-			{
-				"name": "Aphelian Sanctuary Shrine",
-				"access_rules": [
-					"{Aphelian Sanctuary}",
-					"$Zone1Access,Aphelian Sanctuary"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 411
-				}]
-			},{
-				"name": "Aphelian Sanctuary Newt Altar",
-				"access_rules": [
-					"{Aphelian Sanctuary}",
-					"$Zone1Access,Aphelian Sanctuary"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 438
-				}]
-			},
-			{
-				"name": "Aphelian Sanctuary Radio Scanner",
-				"access_rules": [
-					"{Aphelian Sanctuary}",
-					"$Zone1Access,Aphelian Sanctuary"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 465
-				}]
-			},
-			{
-				"name": "Aphelian Sanctuary Scavenger",
-				"access_rules": [
-					"{Aphelian Sanctuary}",
-					"$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Aphelian Sanctuary"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 492
-				}]
-			},
-			{
-				"name": "Rallypoint Delta Chest",
-				"access_rules": [
-				"$Zone1Access,$Zone2Access,Rallypoint Delta",
-				"{Rallypoint Delta}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 49
-				}]
-			},
-			{
-				"name": "Rallypoint Delta Shrine",
-				"access_rules": [
-				"$Zone1Access,$Zone2Access,Rallypoint Delta",
-				"{Rallypoint Delta}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 76
-				}]
-			},{
-				"name": "Rallypoint Delta Newt Altar",
-				"access_rules": [
-				"$Zone1Access,$Zone2Access,Rallypoint Delta",
-				"{Rallypoint Delta}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 103
-				}]
-			},
-			{
-				"name": "Rallypoint Delta Radio Scanner",
-				"access_rules": [
-				"$Zone1Access,$Zone2Access,Rallypoint Delta",
-				"{Rallypoint Delta}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 130
-				}]
-			},
-			{
-				"name": "Rallypoint Delta Scavenger",
-				"access_rules": [
-					"{Rallypoint Delta}",
-					"$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access],Rallypoint Delta"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 157
-				}]
-			},
-			{
-				"name": "Scorched Acres Chest",
-				"access_rules": [
-					"{Scorched Acres}",
-					"$Zone1Access,$Zone2Access,Scorched Acres"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 217
-				}]
-			},
-			{
-				"name": "Scorched Acres Shrine",
-				"access_rules": [
-					"{Scorched Acres}",
-					"$Zone1Access,$Zone2Access,Scorched Acres"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 244
-				}]
-			},{
-				"name": "Scorched Acres Newt Altar",
-				"access_rules": [
-					"{Scorched Acres}",
-					"$Zone1Access,$Zone2Access,Scorched Acres"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 271
-				}]
-			},
-			{
-				"name": "Scorched Acres Radio Scanner",
-				"access_rules": [
-					"{Scorched Acres}",
-					"$Zone1Access,$Zone2Access,Scorched Acres"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 298
-				}]
-			},
-			{
-				"name": "Scorched Acres Scavenger",
-				"access_rules": [
-					"{Scorched Acres}",
-					"$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access],Scorched Acres"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 325
-				}]
-			},
-			{
-				"name": "Siphoned Forest Chest",
-				"access_rules": [
-					"Siphoned Forest"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 722
-				}]
-			},
-			{
-				"name": "Siphoned Forest Shrine",
-				"access_rules": [
-					"Siphoned Forest"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 750
-				}]
-			},{
-				"name": "Siphoned Forest Newt Altar",
-				"access_rules": [
-					"Siphoned Forest"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 778
-				}]
-			},
-			{
-				"name": "Siphoned Forest Radio Scanner",
-				"access_rules": [
-					"Siphoned Forest"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 806
-				}]
-			},
-			{
-				"name": "Siphoned Forest Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Siphoned Forest"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 834
-				}]
-			},
-			{
-				"name": "Sirens Call Chest",
-				"access_rules": [
-					"{Sirens Call}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sirens Call"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 217
-				}]
-			},
-			{
-				"name": "Sirens Call Shrine",
-				"access_rules": [
-					"{Sirens Call}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sirens Call"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 244
-				}]
-			},{
-				"name": "Sirens Call Newt Altar",
-				"access_rules": [
-					"{Sirens Call}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sirens Call"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 271
-				}]
-			},
-			{
-				"name": "Sirens Call Radio Scanner",
-				"access_rules": [
-					"{Sirens Call}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sirens Call"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 298
-				}]
-			},
-			{
-				"name": "Sirens Call Scavenger",
-				"access_rules": [
-					"{Sirens Call}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Sirens Call"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 325
-				}]
-			},
-			{
-				"name": "Sky Meadow Chest",
-				"access_rules": [
-					"{Sky Meadow}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Sky Meadow"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 49
-				}]
-			},
-			{
-				"name": "Sky Meadow Shrine",
-								"access_rules": [
-					"{Sky Meadow}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Sky Meadow"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 76
-				}]
-			},{
-				"name": "Sky Meadow Newt Altar",
-								"access_rules": [
-					"{Sky Meadow}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Sky Meadow"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 103
-				}]
-			},
-			{
-				"name": "Sky Meadow Radio Scanner",
-								"access_rules": [
-					"{Sky Meadow}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Sky Meadow"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 130
-				}]
-			},
-			{
-				"name": "Sky Meadow Scavenger",
-				"access_rules": [
-					"{Sky Meadow}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Sky Meadow"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 157
-				}]
-			},
-			{
-				"name": "Sulfur Pools Chest",
-				"access_rules": [
-					"{Sulfur Pools}",
-					"$Zone1Access,$Zone2Access,Sulfur Pools"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 384
-				}]
-			},
-			{
-				"name": "Sulfur Pools Shrine",
-				"access_rules": [
-					"{Sulfur Pools}",
-					"$Zone1Access,$Zone2Access,Sulfur Pools"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 411
-				}]
-			},{
-				"name": "Sulfur Pools Newt Altar",
-				"access_rules": [
-					"{Sulfur Pools}",
-					"$Zone1Access,$Zone2Access,Sulfur Pools"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 438
-				}]
-			},
-			{
-				"name": "Sulfur Pools Radio Scanner",
-				"access_rules": [
-					"{Sulfur Pools}",
-					"$Zone1Access,$Zone2Access,Sulfur Pools"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 465
-				}]
-			},
-			{
-				"name": "Sulfur Pools Scavenger",
-				"access_rules": [
-					"{Sulfur Pools}",
-					"$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access],Sulfur Pools"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 492
-				}]
-			},
-			{
-				"name": "Sundered Grove Chest",
-				"access_rules": [
-					"{Sundered Grove}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sundered Grove"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 384
-				}]
-			},
-			{
-				"name": "Sundered Grove Shrine",
-				"access_rules": [
-					"{Sundered Grove}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sundered Grove"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 411
-				}]
-			},{
-				"name": "Sundered Grove Newt Altar",
-				"access_rules": [
-					"{Sundered Grove}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sundered Grove"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 438
-				}]
-			},
-			{
-				"name": "Sundered Grove Radio Scanner",
-				"access_rules": [
-					"{Sundered Grove}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,Sundered Grove"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 465
-				}]
-			},
-			{
-				"name": "Sundered Grove Scavenger",
-				"access_rules": [
-					"{Sundered Grove}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Sundered Grove"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1101,
-					"y": 492
-				}]
-			},
-			{
-				"name": "Titanic Plains (2) Chest",
-				"access_rules": [
-					"Titanic Plains (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 217
-				}]
-			},
-			{
-				"name": "Titanic Plains (2) Shrine",
-				"access_rules": [
-					"Titanic Plains (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 244
-				}]
-			},{
-				"name": "Titanic Plains (2) Newt Altar",
-				"access_rules": [
-					"Titanic Plains (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 271
-				}]
-			},
-			{
-				"name": "Titanic Plains (2) Radio Scanner",
-				"access_rules": [
-					"Titanic Plains (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 298
-				}]
-			},
-			{
-				"name": "Titanic Plains (2) Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Titanic Plains (2)"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 325
-				}]
-			},
-			{
-				"name": "Titanic Plains Chest",
-				"access_rules": [
-					"Titanic Plains"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 217
-				}]
-			},
-			{
-				"name": "Titanic Plains Shrine",
-				"access_rules": [
-					"Titanic Plains"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 244
-				}]
-			},{
-				"name": "Titanic Plains Newt Altar",
-				"access_rules": [
-					"Titanic Plains"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 271
-				}]
-			},
-			{
-				"name": "Titanic Plains Radio Scanner",
-				"access_rules": [
-					"Titanic Plains"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 298
-				}]
-			},
-			{
-				"name": "Titanic Plains Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Titanic Plains"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 325
-				}]
-			},
-			{
-				"name": "Wetland Aspect Chest",
-				"access_rules": [
-				"$Zone1Access,Wetland Aspect",
-				"{Wetland Aspect}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 217
-				}]
-			},
-			{
-				"name": "Wetland Aspect Shrine",
-				"access_rules": [
-				"$Zone1Access,Wetland Aspect",
-				"{Wetland Aspect}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 244
-				}]
-			},{
-				"name": "Wetland Aspect Newt Altar",
-				"access_rules": [
-				"$Zone1Access,Wetland Aspect",
-				"{Wetland Aspect}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 271
-				}]
-			},
-			{
-				"name": "Wetland Aspect Radio Scanner",
-				"access_rules": [
-				"$Zone1Access,Wetland Aspect",
-				"{Wetland Aspect}"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 298
-				}]
-			},
-			{
-				"name": "Wetland Aspect Scavenger",
-				"access_rules": [
-					"{Wetland Aspect}",
-					"$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access],Wetland Aspect"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 325
-				}]
-			},
-			
-			{
-				"name": "Commencement",
-				"access_rules": [
-					"{Moon}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access, $Zone5Access, Moon"
-				],
-				"sections": [{
-					"name": "Commencement",
-					"clear_as_group": true,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1250,
-					"y": 382
-				}]
-			},
-			{
-				"name": "Hidden Realm: Bazaar Between Time",
-				"access_rules": [
-					"Bazaar Between Time"
-				],
-				"sections": [{
-					"name": "Hidden Realm: Bazaar Between Time",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1015,
-					"y": 805
-				}]
-			},
-			{
-				"name": "Hidden Realm: A Moment Fractured",
-				"access_rules": [
-					"A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access"
-				],
-				"sections": [{
-					"name": "Hidden Realm: A Moment Fractured",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1015,
-					"y": 634
-				}]
-			},
-			{
-				"name": "Hidden Realm: A Moment Whole",
-				"access_rules": [
-					"A Moment Whole,A Moment Fractured,[Beads of Fealty],$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
-					"{A Moment Whole, $isNotOOLAMomentWhole}"
-				],
-				"sections": [{
-					"name": "Hidden Realm: A Moment Whole",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1217,
-					"y": 634
-				}]
-			},
-			{
-				"name": "Hidden Realm: Gilded Coast",
-				"access_rules": [
-					"Gilded Coast"
-				],
-				"sections": [{
-					"name": "Hidden Realm: Gilded Coast",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1015,
-					"y": 720
-				}]
-			},
-			{
-				"name": "Hidden Realm: Bulwark's Ambry",
-				"access_rules": [
-					"{Bulwarks Ambry}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Bulwarks Ambry"
-				],
-				"sections": [{
-					"name": "Hidden Realm: Bulwarks Ambry",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1217,
-					"y": 720
-				}]
-			},
-			{
-				"name": "Void Fields",
-				"access_rules": [
-					"{VoidFields}",
-					"Bazaar Between Time, VoidFields"
-				],
-				"sections": [{
-					"name": "Void Field",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1217,
-					"y": 805
-				}]
-			},
-			{
-				"name": "Void Locus",
-				"access_rules": [
-					"VoidLocus,[VoidFields],[Bazaar Between Time]"
-				],
-				"sections": [{
-					"name": "Void Locus",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1015,
-					"y": 861
-				}]
-			},
-			{
-				"name": "The Planetarium",
-				"access_rules": [
-					"Planetarium, VoidLocus,[VoidFields],[Bazaar Between Time],[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
-					"Planetarium,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon,[never logical]",
-					"{Planetarium,$isNotOOLPlanetarium}"
-				],
-				"sections": [{
-					"name": "The Planetarium",
-					"clear_as_group": false,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1217,
-					"y": 861
-				}]
-			},			
-			{
-				"name": "Verdant Falls Chest",
-				"access_rules": [
-					"Verdant Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 384
-				}]
-			},
-			{
-				"name": "Verdant Falls Shrine",
-				"access_rules": [
-					"Verdant Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 411
-				}]
-			},{
-				"name": "Verdant Falls Newt Altar",
-				"access_rules": [
-					"Verdant Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 438
-				}]
-			},
-			{
-				"name": "Verdant Falls Radio Scanner",
-				"access_rules": [
-					"Verdant Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 465
-				}]
-			},
-			{
-				"name": "Verdant Falls Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Verdant Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 492
-				}]
-			},
-						{
-				"name": "Viscous Falls Chest",
-				"access_rules": [
-					"Viscous Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 384
-				}]
-			},
-			{
-				"name": "Viscous Falls Shrine",
-				"access_rules": [
-					"Viscous Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 411
-				}]
-			},{
-				"name": "Viscous Falls Newt Altar",
-				"access_rules": [
-					"Viscous Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 438
-				}]
-			},
-			{
-				"name": "Viscous Falls Radio Scanner",
-				"access_rules": [
-					"Viscous Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 465
-				}]
-			},
-			{
-				"name": "Viscous Falls Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Viscous Falls"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 492
-				}]
-			},
-			{
-				"name": "Shattered Abodes Chest",
-				"access_rules": [
-					"Shattered Abodes"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 552
-				}]
-			},
-			{
-				"name": "Shattered Abodes Shrine",
-				"access_rules": [
-					"Shattered Abodes"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 579
-				}]
-			},{
-				"name": "Shattered Abodes Newt Altar",
-				"access_rules": [
-					"Shattered Abodes"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 606
-				}]
-			},
-			{
-				"name": "Shattered Abodes Radio Scanner",
-				"access_rules": [
-					"Shattered Abodes"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 633
-				}]
-			},
-			{
-				"name": "Shattered Abodes Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Shattered Abodes"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 191,
-					"y": 660
-				}]
-			},
-			{
-				"name": "Disturbed Impact Chest",
-				"access_rules": [
-					"Disturbed Impact"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 552
-				}]
-			},
-			{
-				"name": "Disturbed Impact Shrine",
-				"access_rules": [
-					"Disturbed Impact"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 579
-				}]
-			},{
-				"name": "Disturbed Impact Newt Altar",
-				"access_rules": [
-					"Disturbed Impact"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 606
-				}]
-			},
-			{
-				"name": "Disturbed Impact Radio Scanner",
-				"access_rules": [
-					"Disturbed Impact"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 633
-				}]
-			},
-			{
-				"name": "Disturbed Impact Scavenger",
-				"access_rules": [
-					"[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access],Disturbed Impact"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 387,
-					"y": 660
-				}]
-			},
-			{
-				"name": "Reformed Altar Chest",
-				"access_rules": [
-					"{Reformed Altar}",
-					"$Zone1Access,Reformed Altar"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 552
-				}]
-			},
-			{
-				"name": "Reformed Altar Shrine",
-				"access_rules": [
-					"{Reformed Altar}",
-					"$Zone1Access,Reformed Altar"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 579
-				}]
-			},{
-				"name": "Reformed Altar Newt Altar",
-				"access_rules": [
-					"{Reformed Altar}",
-					"$Zone1Access,Reformed Altar"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 606
-				}]
-			},
-			{
-				"name": "Reformed Altar Radio Scanner",
-				"access_rules": [
-					"{Reformed Altar}",
-					"$Zone1Access, Reformed Altar"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 633
-				}]
-			},
-			{
-				"name": "Reformed Altar Scavenger",
-				"access_rules": [
-					"Reformed Altar,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 629,
-					"y": 660
-				}]
-			},
-						{
-				"name": "Golden Dieback Chest",
-				"access_rules": [
-					"{Golden Dieback,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 722
-				}]
-			},
-			{
-				"name": "Golden Dieback Shrine",
-				"access_rules": [
-					"{Golden Dieback,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 750
-				}]
-			},{
-				"name": "Golden Dieback Newt Altar",
-				"access_rules": [
-					"{Golden Dieback,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 778
-				}]
-			},
-			{
-				"name": "Golden Dieback Radio Scanner",
-				"access_rules": [
-					"{Golden Dieback,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Golden Dieback,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 806
-				}]
-			},
-			{
-				"name": "Golden Dieback Scavenger",
-				"access_rules": [
-					"$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access],Golden Dieback,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 834
-				}]
-			},
-			{
-				"name": "Treeborn Colony Chest",
-				"access_rules": [
-					"{Treeborn Colony,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 552
-				}]
-			},
-			{
-				"name": "Treeborn Colony Shrine",
-				"access_rules": [
-					"{Treeborn Colony,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 579
-				}]
-			},{
-				"name": "Treeborn Colony Newt Altar",
-				"access_rules": [
-					"{Treeborn Colony,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 606
-				}]
-			},
-			{
-				"name": "Treeborn Colony Radio Scanner",
-				"access_rules": [
-					"{Treeborn Colony,$isNotOOLSotSStage3}",
-					"$Zone1Access,$Zone2Access,Treeborn Colony,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 633
-				}]
-			},
-			{
-				"name": "Treeborn Colony Scavenger",
-				"access_rules": [
-					"$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access],Treeborn Colony,[Reformed Altar]"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 864,
-					"y": 660
-				}]
-			},
-			{
-				"name": "Prime Meridian",
-				"access_rules": [
-					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Golden Dieback]",
-					"$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Treeborn Colony]",
-					"{Prime Meridian,$isNotOOLPrimeMeridian}"
-				],
-				"sections": [{
-					"name": "Prime Meridian",
-					"clear_as_group": true,
-					"item_count": 1
-				}],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1015,
-					"y": 550
-				}]
-			},
-			{
-				"name": "Helminth Hatchery Chest",
-				"access_rules": [
-					"{Helminth Hatchery}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Helminth Hatchery"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 217
-				}]
-			},
-			{
-				"name": "Helminth Hatchery Shrine",
-								"access_rules": [
-					"{Helminth Hatchery}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Helminth Hatchery"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 20
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 244
-				}]
-			},{
-				"name": "Helminth Hatchery Newt Altar",
-								"access_rules": [
-					"{Helminth Hatchery}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Helminth Hatchery"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 2
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 271
-				}]
-			},
-			{
-				"name": "Helminth Hatchery Radio Scanner",
-								"access_rules": [
-					"{Helminth Hatchery}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Helminth Hatchery"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 298
-				}]
-			},
-			{
-				"name": "Helminth Hatchery Scavenger",
-				"access_rules": [
-					"{Helminth Hatchery}",
-					"$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,Helminth Hatchery"
-				],
-				"sections": [{
-				"name": "1",
-					"clear_as_group": false,
-					"item_count": 1
-				}
-				],
-				"map_locations": [{
-					"map": "map1",
-					"x": 1336,
-					"y": 325
-				}]
-			}
-		]
-	},
-	{
-		"name": "Classic",
-		"visibility_rules": ["classicCheck"],
-		"children": [{
-			"name": "Item Pickup",
-			"sections": [{
-				"name": "ItemPickup",
-				"clear_as_group": false,
-				"item_count": 250
-			}],
-			"map_locations": [{
-				"map": "map1",
-				"x": 100,
-				"y": 100
-			}]
-		}]
-	}
+[
+    {
+        "name": "Explore",
+        "visibility_rules": [
+            "exploreCheck"
+        ],
+        "children": [
+            {
+                "name": "Distant Roost",
+                "access_rules": [
+                    "Distant Roost"
+                ],
+                "children": [
+                    {
+                        "name": "Distant Roost Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 76
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 103
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost Scavenger",
+                        "access_rules": [
+                            "Distant Roost,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Distant Roost}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 157
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Distant Roost (2)",
+                "access_rules": [
+                    "Distant Roost (2)"
+                ],
+                "children": [
+                    {
+                        "name": "Distant Roost (2) Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost (2) Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 76
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost (2) Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 103
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost (2) Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Distant Roost (2) Scavenger",
+                        "access_rules": [
+                            "Distant Roost (2),[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Distant Roost (2)}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 157
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Abandoned Aqueduct",
+                "access_rules": [
+                    "{Abandoned Aqueduct}",
+                    "Abandoned Aqueduct,$Zone1Access"
+                ],
+                "children": [
+                    {
+                        "name": "Abandoned Aqueduct Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abandoned Aqueduct Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 76
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abandoned Aqueduct Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 103
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abandoned Aqueduct Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abandoned Aqueduct Scavenger",
+                        "access_rules": [
+                            "Abandoned Aqueduct,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Abandoned Aqueduct}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 157
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Rallypoint Delta",
+                "access_rules": [
+                    "{Rallypoint Delta}",
+                    "Rallypoint Delta,$Zone1Access,$Zone2Access"
+                ],
+                "children": [
+                    {
+                        "name": "Rallypoint Delta Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rallypoint Delta Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 76
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rallypoint Delta Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 103
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rallypoint Delta Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rallypoint Delta Scavenger",
+                        "access_rules": [
+                            "Rallypoint Delta,$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Rallypoint Delta}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 157
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Depths",
+                "access_rules": [
+                    "{Abyssal Depths}",
+                    "Abyssal Depths,$Zone1Access,$Zone2Access,$Zone3Access"
+                ],
+                "children": [
+                    {
+                        "name": "Abyssal Depths Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abyssal Depths Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 76
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abyssal Depths Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 103
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abyssal Depths Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Abyssal Depths Scavenger",
+                        "access_rules": [
+                            "Abyssal Depths,$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access]",
+                            "{Abyssal Depths}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 157
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sky Meadow",
+                "access_rules": [
+                    "{Sky Meadow}",
+                    "Sky Meadow,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access"
+                ],
+                "children": [
+                    {
+                        "name": "Sky Meadow Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 49
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sky Meadow Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 76
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sky Meadow Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 103
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sky Meadow Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 130
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sky Meadow Scavenger",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 157
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Titanic Plains",
+                "access_rules": [
+                    "Titanic Plains"
+                ],
+                "children": [
+                    {
+                        "name": "Titanic Plains Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 244
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 271
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 298
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains Scavenger",
+                        "access_rules": [
+                            "Titanic Plains,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Titanic Plains}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Titanic Plains (2)",
+                "access_rules": [
+                    "Titanic Plains (2)"
+                ],
+                "children": [
+                    {
+                        "name": "Titanic Plains (2) Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains (2) Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 244
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains (2) Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 271
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains (2) Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 298
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Titanic Plains (2) Scavenger",
+                        "access_rules": [
+                            "Titanic Plains (2),[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Titanic Plains (2)}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Wetland Aspect",
+                "access_rules": [
+                    "{Wetland Aspect}",
+                    "Wetland Aspect,$Zone1Access"
+                ],
+                "children": [
+                    {
+                        "name": "Wetland Aspect Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wetland Aspect Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 244
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wetland Aspect Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 271
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wetland Aspect Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 298
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wetland Aspect Scavenger",
+                        "access_rules": [
+                            "Wetland Aspect,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Wetland Aspect}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Scorched Acres",
+                "access_rules": [
+                    "{Scorched Acres}",
+                    "Scorched Acres,$Zone1Access,$Zone2Access"
+                ],
+                "children": [
+                    {
+                        "name": "Scorched Acres Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scorched Acres Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 244
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scorched Acres Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 271
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scorched Acres Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 298
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scorched Acres Scavenger",
+                        "access_rules": [
+                            "Scorched Acres,$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Scorched Acres}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sirens Call",
+                "access_rules": [
+                    "{Sirens Call}",
+                    "Sirens Call,$Zone1Access,$Zone2Access,$Zone3Access"
+                ],
+                "children": [
+                    {
+                        "name": "Sirens Call Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sirens Call Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 244
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sirens Call Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 271
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sirens Call Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 298
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sirens Call Scavenger",
+                        "access_rules": [
+                            "Sirens Call,$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access]",
+                            "{Sirens Call}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Helminth Hatchery",
+                "access_rules": [
+                    "{Helminth Hatchery}",
+                    "Helminth Hatchery,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access"
+                ],
+                "children": [
+                    {
+                        "name": "Helminth Hatchery Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Helminth Hatchery Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 244
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Helminth Hatchery Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 271
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Helminth Hatchery Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 298
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Helminth Hatchery Scavenger",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1336,
+                                "y": 325
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Verdant Falls",
+                "access_rules": [
+                    "Verdant Falls"
+                ],
+                "children": [
+                    {
+                        "name": "Verdant Falls Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 384
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Verdant Falls Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 411
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Verdant Falls Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 438
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Verdant Falls Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 465
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Verdant Falls Scavenger",
+                        "access_rules": [
+                            "Verdant Falls,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Verdant Falls}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 492
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Viscous Falls",
+                "access_rules": [
+                    "Viscous Falls"
+                ],
+                "children": [
+                    {
+                        "name": "Viscous Falls Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 384
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viscous Falls Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 411
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viscous Falls Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 438
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viscous Falls Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 465
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Viscous Falls Scavenger",
+                        "access_rules": [
+                            "Viscous Falls,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Viscous Falls}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 492
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Aphelian Sanctuary",
+                "access_rules": [
+                    "{Aphelian Sanctuary}",
+                    "Aphelian Sanctuary,$Zone1Access"
+                ],
+                "children": [
+                    {
+                        "name": "Aphelian Sanctuary Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 384
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aphelian Sanctuary Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 411
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aphelian Sanctuary Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 438
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aphelian Sanctuary Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 465
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aphelian Sanctuary Scavenger",
+                        "access_rules": [
+                            "Aphelian Sanctuary,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Aphelian Sanctuary}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 492
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sulfur Pools",
+                "access_rules": [
+                    "{Sulfur Pools}",
+                    "Sulfur Pools,$Zone1Access,$Zone2Access"
+                ],
+                "children": [
+                    {
+                        "name": "Sulfur Pools Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 384
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sulfur Pools Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 411
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sulfur Pools Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 438
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sulfur Pools Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 465
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sulfur Pools Scavenger",
+                        "access_rules": [
+                            "Sulfur Pools,$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Sulfur Pools}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 492
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sundered Grove",
+                "access_rules": [
+                    "{Sundered Grove}",
+                    "Sundered Grove,$Zone1Access,$Zone2Access,$Zone3Access"
+                ],
+                "children": [
+                    {
+                        "name": "Sundered Grove Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 384
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sundered Grove Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 411
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sundered Grove Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 438
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sundered Grove Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 465
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sundered Grove Scavenger",
+                        "access_rules": [
+                            "Sundered Grove,$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access]",
+                            "{Sundered Grove}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 1101,
+                                "y": 492
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Shattered Abodes",
+                "access_rules": [
+                    "Shattered Abodes"
+                ],
+                "children": [
+                    {
+                        "name": "Shattered Abodes Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 552
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shattered Abodes Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 579
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shattered Abodes Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 606
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shattered Abodes Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 633
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Shattered Abodes Scavenger",
+                        "access_rules": [
+                            "Shattered Abodes,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Shattered Abodes}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 660
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Disturbed Impact",
+                "access_rules": [
+                    "Disturbed Impact"
+                ],
+                "children": [
+                    {
+                        "name": "Disturbed Impact Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 552
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Disturbed Impact Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 579
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Disturbed Impact Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 606
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Disturbed Impact Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 633
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Disturbed Impact Scavenger",
+                        "access_rules": [
+                            "Disturbed Impact,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Disturbed Impact}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 387,
+                                "y": 660
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Reformed Altar",
+                "access_rules": [
+                    "{Reformed Altar}",
+                    "Reformed Altar,$Zone1Access"
+                ],
+                "children": [
+                    {
+                        "name": "Reformed Altar Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 552
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reformed Altar Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 579
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reformed Altar Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 606
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reformed Altar Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 633
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reformed Altar Scavenger",
+                        "access_rules": [
+                            "Reformed Altar,$Zone1Access,[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Reformed Altar}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 629,
+                                "y": 660
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Treeborn Colony",
+                "access_rules": [
+                    "{Treeborn Colony}",
+                    "Treeborn Colony,[Reformed Altar],$Zone1Access,$Zone2Access"
+                ],
+                "children": [
+                    {
+                        "name": "Treeborn Colony Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 552
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Treeborn Colony Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 579
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Treeborn Colony Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 606
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Treeborn Colony Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 633
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Treeborn Colony Scavenger",
+                        "access_rules": [
+                            "Treeborn Colony,[Reformed Altar],$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Treeborn Colony}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 660
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Siphoned Forest",
+                "access_rules": [
+                    "Siphoned Forest"
+                ],
+                "children": [
+                    {
+                        "name": "Siphoned Forest Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 722
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Siphoned Forest Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 749
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Siphoned Forest Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 776
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Siphoned Forest Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 803
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Siphoned Forest Scavenger",
+                        "access_rules": [
+                            "Siphoned Forest,[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Siphoned Forest}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 191,
+                                "y": 830
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Golden Dieback",
+                "access_rules": [
+                    "{Golden Dieback}",
+                    "Golden Dieback,[Reformed Altar],$Zone1Access,$Zone2Access"
+                ],
+                "children": [
+                    {
+                        "name": "Golden Dieback Chest",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 722
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden Dieback Shrine",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 20,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 749
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden Dieback Newt Altar",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 2,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 776
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden Dieback Radio Scanner",
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 803
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golden Dieback Scavenger",
+                        "access_rules": [
+                            "Golden Dieback,[Reformed Altar],$Zone1Access,$Zone2Access,[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                            "{Golden Dieback}"
+                        ],
+                        "sections": [
+                            {
+                                "name": "1",
+                                "clear_as_group": false,
+                                "item_count": 1,
+                                "inspectable_sequence_break": true
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map1",
+                                "x": 864,
+                                "y": 830
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Prime Meridian",
+                "access_rules": [
+                    "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Golden Dieback]",
+                    "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Treeborn Colony]",
+                    "$Zone1Access,$Zone2Access,Prime Meridian,[Golden Dieback],[Treeborn Colony],Progressive Stage:3,[special case for ool without Reformed Altar or other stage 3 never logical]",
+                    "$Zone1Access,$Zone2Access,Prime Meridian,[Golden Dieback],[Treeborn Colony],Stage 3,[special case for ool without Reformed Altar or other stage 3 never logical]",
+                    "{Prime Meridian}"
+                ],
+                "sections": [
+                    {
+                        "name": "Prime Meridian",
+                        "clear_as_group": true,
+                        "item_count": 1,
+                        "inspectable_sequence_break": true
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: A Moment, Fractured",
+                "access_rules": [
+                    "A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
+                    "{A Moment Fractured}"
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Realm: A Moment, Fractured",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 634
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: A Moment, Whole",
+                "access_rules": [
+                    "A Moment Whole,[Beads of Fealty],A Moment Fractured,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access",
+                    "{A Moment Whole}"
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Realm: A Moment, Whole",
+                        "clear_as_group": true,
+                        "item_count": 1,
+                        "inspectable_sequence_break": true
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 634
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: Gilded Coast",
+                "access_rules": [
+                    "Gilded Coast"
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Realm: Gilded Coast",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 720
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: Bulwark's Ambry",
+                "access_rules": [
+                    "$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Bulwarks Ambry",
+                    "{Bulwarks Ambry}"
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Realm: Bulwark's Ambry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 720
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Realm: Bazaar Between Time",
+                "access_rules": [
+                    "Bazaar Between Time"
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Realm: Bazaar Between Time",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 805
+                    }
+                ]
+            },
+            {
+                "name": "Void Fields",
+                "access_rules": [
+                    "Bazaar Between Time,VoidFields",
+                    "{VoidFields}"
+                ],
+                "sections": [
+                    {
+                        "name": "Void Fields",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 805
+                    }
+                ]
+            },
+            {
+                "name": "Void Locus",
+                "access_rules": [
+                    "VoidLocus,[VoidFields],[Bazaar Between Time]"
+                ],
+                "sections": [
+                    {
+                        "name": "Void Locus",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1015,
+                        "y": 861
+                    }
+                ]
+            },
+            {
+                "name": "Planetarium",
+                "access_rules": [
+                    "Planetarium,VoidLocus,[VoidFields],[Bazaar Between Time],[$Zone1Access],[$Zone2Access],[$Zone3Access],[$Zone4Access],[$Zone5Access]",
+                    "Planetarium,$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon",
+                    "{Planetarium}"
+                ],
+                "sections": [
+                    {
+                        "name": "Planetarium",
+                        "clear_as_group": true,
+                        "item_count": 1,
+                        "inspectable_sequence_break": true
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1217,
+                        "y": 861
+                    }
+                ]
+            },
+            {
+                "name": "Commencement",
+                "access_rules": [
+                    "$Zone1Access,$Zone2Access,$Zone3Access,$Zone4Access,$Zone5Access,Moon",
+                    "{Moon}"
+                ],
+                "sections": [
+                    {
+                        "name": "Commencement",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1250,
+                        "y": 382
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Classic",
+        "visibility_rules": [
+            "classicCheck"
+        ],
+        "children": [
+            {
+                "name": "Item Pickup",
+                "sections": [
+                    {
+                        "name": "ItemPickup",
+                        "clear_as_group": false,
+                        "item_count": 250
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 100,
+                        "y": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Legend",
+        "children": [
+            {
+                "name": "Reachable",
+                "sections": [
+                    {
+                        "name": "1",
+                        "clear_as_group": false,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1450,
+                        "y": 478
+                    }
+                ]
+            },
+            {
+                "name": "Received but not reachable",
+                "access_rules": [
+                    "{}"
+                ],
+                "sections": [
+                    {
+                        "name": "1",
+                        "clear_as_group": false,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1450,
+                        "y": 514
+                    }
+                ]
+            },
+            {
+                "name": "Reachable but out of logic",
+                "access_rules": [
+                    "[]"
+                ],
+                "sections": [
+                    {
+                        "name": "1",
+                        "clear_as_group": false,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map1",
+                        "x": 1450,
+                        "y": 550
+                    }
+                ]
+            }
+        ]
+    }
 ]
