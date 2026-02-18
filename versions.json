@@ -2,10 +2,19 @@
     "versions": [
         {
             "package_version": "1.5",
+            "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.5/Ror2-AP-tracker.zip",
+            "sha256": "f5016175d7d53a88ecc66c59b89d1113ad0023477d5d7cfb962e0afd9e6d87ca",
+            "changelog": [
+                "Added support for highlighting hinted locations",
+                "Added legend for clarity on meanings of colors for this pack",
+                "Added support for auto updates going forward",
+                "Minor logic fix for Planetarium access"
+        },
+        {
+            "package_version": "1.4",
             "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.4/RoR2_AP_tracker_v1_4.zip",
             "sha256": "1568df28418d6f2f5ab547929504c5ac3a75b9e9889b8426eceb2e4c182794c2",
             "changelog": ["Added support for SotS"]
-
         }
     ]
 }
