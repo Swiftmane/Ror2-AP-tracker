@@ -1,0 +1,11 @@
+{
+    "versions": [
+        {
+            "package_version": "1.5",
+            "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.4/RoR2_AP_tracker_v1_4.zip",
+            "sha256": "1568df28418d6f2f5ab547929504c5ac3a75b9e9889b8426eceb2e4c182794c2",
+            "changelog": ["Added support for SotS"]
+
+        }
+    ]
+}
