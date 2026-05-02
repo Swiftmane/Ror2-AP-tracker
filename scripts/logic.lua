@@ -33,7 +33,6 @@ function Zone3Access()
 			Tracker:ProviderCountForCode("Treeborn Colony")) *
 			Tracker:ProviderCountForCode("Reformed Altar")
 		-- Note: the above 3 lines make it so that Golden Dieback and Treeborn Colony only count if you have access to Reformed altar in order to mimic logic
-
 	if (value > 0) and (Tracker:ProviderCountForCode("Stage 3") > 0) then
 		return 1
 	elseif (value > 0) and (Tracker:ProviderCountForCode("Progressive Stage") > 2) then
@@ -64,4 +63,12 @@ function Zone5Access()
 		Tracker:ProviderCountForCode("Helminth Hatchery")
 
 	return value 
+end
+
+function PrimeMeridianOOL()
+	if (Tracker:ProviderCountForCode("Stage 3") > 0 or Tracker:ProviderCountForCode("Progressive Stage") > 2) and 
+			(Tracker:ProviderCountForCode("Golden Dieback") > 0 or Tracker:ProviderCountForCode("Treeborn Colony") > 0) then
+		return 1
+	end
+	return 0
 end

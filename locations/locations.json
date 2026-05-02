@@ -2276,8 +2276,7 @@
                 "access_rules": [
                     "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Golden Dieback]",
                     "$Zone1Access,$Zone2Access,$Zone3Access,[$Zone4Access],[$Zone5Access],Prime Meridian,[Reformed Altar],[Treeborn Colony]",
-                    "$Zone1Access,$Zone2Access,Prime Meridian,[Golden Dieback],[Treeborn Colony],Progressive Stage:3,[special case for ool without Reformed Altar or other stage 3 never logical]",
-                    "$Zone1Access,$Zone2Access,Prime Meridian,[Golden Dieback],[Treeborn Colony],Stage 3,[special case for ool without Reformed Altar or other stage 3 never logical]",
+                    "$Zone1Access,$Zone2Access,Prime Meridian,$PrimeMeridianOOL,[special case for ool without Reformed Altar or other stage 3 never logical]",
                     "{Prime Meridian}"
                 ],
                 "sections": [
