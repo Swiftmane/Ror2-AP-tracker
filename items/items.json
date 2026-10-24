@@ -275,6 +275,54 @@
         "img": "images/items/toggle.png",
         "codes": "Helminth Hatchery"
     },
+    {
+        "name": "Pretenders Precipice",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Pretenders Precipice"
+    },
+    {
+        "name": "Iron Alluvium",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Iron Alluvium"
+    },
+    {
+        "name": "Conduit Canyon",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Conduit Canyon"
+    },
+    {
+        "name": "Repurposed Crater",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Repurposed Crater"
+    },
+    {
+        "name": "Solutional Haunt",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Solutional Haunt"
+    },
+    {
+        "name": "Computational Exchange",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Computational Exchange"
+    },
+    {
+        "name": "Neural Sanctum",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Neural Sanctum"
+    },
+    {
+        "name": "Iron Auroras",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "Iron Auroras"
+    },
 	{
 		"name": "Explore mode",
 		"type": "toggle",
@@ -299,12 +347,6 @@
         "type": "consumable",
         "img": "images/items/money.png",
         "codes": "Money"
-    },
-    {
-        "name": "Radar Scanner",
-        "type": "toggle",
-        "img": "images/items/scanner.png",
-        "codes": "RadarScanner"
     },
     {
         "name": "Lunar Coin",
