@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.6.0",
+            "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.6.0/Ror2-AP-tracker.zip",
+            "sha256":"f1315d04388a738a24a2abdbb71ff1336edff3d360eeda6abdeb4ecf11d950b0",
+            "changelog":[
+                "Initial support for Alloyed Collective"
+            ]
+        },
+        {
             "package_version": "1.5.1",
             "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/archive/refs/tags/v1.5.1.zip",
             "sha256":"e3baac9304c750c828ae9c35a24fe171fdc024dfe2aa5887155c76cf02c8df75",
