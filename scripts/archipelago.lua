@@ -294,7 +294,6 @@ function onClear(slot_data)
                 Tracker:FindObjectForCode('@Explore/Pretenders Precipice/Pretenders Precipice Newt Altar/1').AvailableChestCount = value
                 Tracker:FindObjectForCode('@Explore/Iron Alluvium/Iron Alluvium Newt Altar/1').AvailableChestCount = value
                 Tracker:FindObjectForCode('@Explore/Repurposed Crater/Repurposed Crater Newt Altar/1').AvailableChestCount = value
-                Tracker:FindObjectForCode('@Explore/Conduit Canyon/Conduit Canyon Newt Altar/1').AvailableChestCount = value
             else
                 Tracker:FindObjectForCode('@Explore/Pretenders Precipice/Pretenders Precipice Newt Altar/1').AvailableChestCount = 0
                 Tracker:FindObjectForCode('@Explore/Iron Alluvium/Iron Alluvium Newt Altar/1').AvailableChestCount = 0
