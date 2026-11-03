@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.6.1",
+            "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.6.1/Ror2-AP-tracker.zip",
+            "sha256": "49b5f4fd8a2cbfce83a71f773784a6be74f599029c65ecdcd0b2d5b9ad5ea3d3",
+            "changelog":[
+                "Fixed an issue where the number of Newt Altars available was misrepresented on some stages"
+            ]
+        },
+        {
             "package_version": "1.6.0",
             "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.6.0/Ror2-AP-tracker.zip",
             "sha256":"f1315d04388a738a24a2abdbb71ff1336edff3d360eeda6abdeb4ecf11d950b0",
