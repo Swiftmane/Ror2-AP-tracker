@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.6.2",
+            "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.6.2/Ror2-AP-tracker.zip",
+            "sha256": "2b7513cb57acfa58773bf131f39fd66e4e9f73af5d4c15f784255adf734ee0f6",
+            "changelog":[
+                "Update to fix back compatibility with the version of the apworld that is in core"
+            ]
+        },
+        {
             "package_version": "1.6.1",
             "download_url": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/download/v1.6.1/Ror2-AP-tracker.zip",
             "sha256": "49b5f4fd8a2cbfce83a71f773784a6be74f599029c65ecdcd0b2d5b9ad5ea3d3",
